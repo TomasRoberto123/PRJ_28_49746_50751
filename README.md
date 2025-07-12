@@ -115,7 +115,6 @@ Projeto Android em 03_Implementacao/AppQuiz.
 ## Documentação
 
 - Relatório final em PDF e fontes LaTeX dentro de `_RELATORIO/`.
-- Slides e demais artefatos podem ser acrescentados conforme convém.
 
 ## Autores e Agradecimentos
 Tomas Roberto (49746)
