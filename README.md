@@ -1,6 +1,5 @@
-# Museu Digital Template
-
-Este repositório contém o template para criação de museus digitais, baseado em JHipster (Spring Boot + Angular) e Docker, permitindo fácil configuração e deployment.
+# Catalogo do Museu de Física do ISEL
+Aplicação web para divulgação do património científico do Departamento de Física do ISEL, com catálogo de instrumentos históricos, glossário técnico e quizzes interativos.
 
 ## Estrutura do Repositório
 
