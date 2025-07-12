@@ -5,22 +5,18 @@ Aplicação web para divulgação do património científico do Departamento de 
 
 ```
 .
-├── _RELATORIO/                     Documentação final em PDF e fontes LaTeX
-├── src/                            Código-fonte Spring Boot (backend)
-├── src/main/webapp/                Frontend Angular gerado pelo JHipster
-│   ├── content/
-│   │   ├── config-museu/           Configuração dinâmica (JSON)
-│   │   │   └── museum-config.json  
-│   │   ├── images/                 Assets de UI (capa, cartões, etc.)
-│   │   ├── data/
-│   │   │   ├── texts/              Textos estáticos (.txt, .csv)
-│   │   │   └── images/             Imagens de conteúdo
-│   │   └── video/                  Vídeos de apresentação
-├── src/main/docker/                Docker Compose files
-│   └── app.yml                     Compose para desenvolvimento
-├── .env.example                    Exemplo de variáveis de ambiente
-├── docker-compose.override.yml     Overrides locais (opcional)
-└── README.md                       Este arquivo
+├── 00_Planeamento      
+├── 01_Analise          
+├── 02_Desenho          # Diagramas 
+├── 03_Implementacao
+│   └── Museu           # Código-fonte do projeto Museu
+│       ├── src/
+│       │   └── main/
+│       │       └── webapp/
+│       │           ├── content/       # JSON, textos, imagens e vídeos           
+│       └── Dockerfiles, pom.xml, etc.
+├── 04_Teste            # Plano e resultados de validação
+└── README.md           # Este ficheiro
 ```
 
 ## Pré-requisitos
@@ -98,7 +94,7 @@ ng serve --open
    ```
 
 2. **Imagens e Vídeos**  
-   Substitua arquivos em:
+   Substitua ficheiros em:
    - `content/images/` (capa, cartões)
    - `content/video/` (apresenta.mp4, video_capa.png)
    - `content/data/images/` (imagens de conteúdo)
@@ -106,12 +102,27 @@ ng serve --open
 3. **Textos de Conteúdo**  
    Altere ou adicione `.txt` ou `.csv` em `content/data/texts/`.
 
+
+## Aplicação Móvel
+Projeto Android em 03_Implementacao/AppQuiz.
+
+ - Carrega perguntas de JSON dos assets.
+
+ - Quiz interativo, categorias e integração para abrir o site do museu.
+
+ - Jetpack Compose + Navigation Compose.
+
 ## Documentação
 
 - Relatório final em PDF e fontes LaTeX dentro de `_RELATORIO/`.
 - Slides e demais artefatos podem ser acrescentados conforme convém.
 
-## Licença
+## Autores e Agradecimentos
+Tomas Roberto (49746)
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Daniela Gomes (50751)
+
+Orientadores: Prof. Rui Jesus, Prof. Carlos Gonçalves
+
+Agradecemos também ao ISEL, DEETC e às nossas famílias pelo apoio.
 
