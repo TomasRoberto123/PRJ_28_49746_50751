@@ -1,75 +1,118 @@
-# PRJ_28_49746_50751
+# Museu Digital Template
 
-**Catalogo do Museu de Física do ISEL**  
-Aplicação web para divulgação do património científico do Departamento de Física do ISEL, com catálogo de instrumentos históricos, glossário técnico e quizzes interativos.
-
-## Índice
-
-1. [Visão Geral](#visão-geral)  
-2. [Tecnologias](#tecnologias)  
-3. [Estrutura do Repositório](#estrutura-do-repositório)  
-4. [Pré-requisitos](#pré-requisitos)  
-5. [Instalação e Execução](#instalação-e-execução)  
-6. [Template Configurável](#template-configurável)  
-7. [Aplicação Móvel](#aplicação-móvel)  
-8. [Testes e Validação](#testes-e-validação)  
-9. [Autores e Agradecimentos](#autores-e-agradecimentos)  
-
----
-
-## Visão Geral
-
-Este projeto visa disponibilizar online uma aplicação web que exibe:
-
-- **Catálogo de instrumentos históricos** (base de dados PostgreSQL + Spring Boot).  
-- **Glossário técnico** dinâmico.  
-- **Quizzes interativos** carregados de JSON.  
-- **Deploy containerizado** (Docker) e servido por NGINX com HTTPS (Let’s Encrypt).  
-- **Template genérico** para adaptação rápida a outros museus.  
-- **Aplicação Android** de divulgação (Jetpack Compose).
-
-## Tecnologias
-
-- **Backend**: Java 11 + Spring Boot  
-- **Frontend**: Angular + Bootstrap  
-- **Containerização**: *Docker* (e compatível com Podman em desenvolvimento)  
-- **Web server / Proxy**: NGINX  
-- **TLS/HTTPS**: Certbot (Let’s Encrypt)  
-- **CI/LFS**: Git LFS (para assets grandes)  
-- **Mobile**: Android Native (Jetpack Compose)
+Este repositório contém o template para criação de museus digitais, baseado em JHipster (Spring Boot + Angular) e Docker, permitindo fácil configuração e deployment.
 
 ## Estrutura do Repositório
-/
-├── 00_Planeamento # Documentos de planeamento
-├── 01_Analise # Análise de requisitos e contexto
-├── 02_Desenho # Diagramas e especificações de desenho
-├── 03_Implementacao
-│ └── Museu # Código-fonte do projeto Museu
-│ ├── src/
-│ │ └── main/
-│ │ └── webapp/
-│ │ ├── content/ # JSONs, textos, imagens e vídeos
-│ │ ├── images/ # UI assets (capa, cartões)
-│ │ └── video/ # Vídeo de apresentação
-│ └── Dockerfiles, pom.xml, etc.
-├── 04_Teste # Plano e resultados de validação
-└── README.md # Este arquivo
 
+```
+.
+├── _RELATORIO/                     Documentação final em PDF e fontes LaTeX
+├── src/                            Código-fonte Spring Boot (backend)
+├── src/main/webapp/                Frontend Angular gerado pelo JHipster
+│   ├── content/
+│   │   ├── config-museu/           Configuração dinâmica (JSON)
+│   │   │   └── museum-config.json  
+│   │   ├── images/                 Assets de UI (capa, cartões, etc.)
+│   │   ├── data/
+│   │   │   ├── texts/              Textos estáticos (.txt, .csv)
+│   │   │   └── images/             Imagens de conteúdo
+│   │   └── video/                  Vídeos de apresentação
+├── src/main/docker/                Docker Compose files
+│   └── app.yml                     Compose para desenvolvimento
+├── .env.example                    Exemplo de variáveis de ambiente
+├── docker-compose.override.yml     Overrides locais (opcional)
+└── README.md                       Este arquivo
+```
 
 ## Pré-requisitos
 
-- Java 11 JDK  
-- Maven  
-- Node.js + npm  
-- Docker & Docker Compose  
-- Git + Git LFS  
-- (Opcional) Android Studio para app móvel
+- [Java 11+](https://adoptopenjdk.net/)
+- [Maven](https://maven.apache.org/)
+- [Node.js e npm](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli) (opcional para desenvolvimento local)
+- [Docker](https://www.docker.com/) e [Docker Compose](https://docs.docker.com/compose/)
 
-## Instalação e Execução
+## Configuração
 
-1. **Clone o repositório**  
+1. Copie o exemplo de ambiente:
+
    ```bash
-   git clone https://github.com/TomasRoberto123/PRJ_28_49746_50751.git
-   cd PRJ_28_49746_50751/03_Implementacao/Museu
+   cp .env.example .env
+   ```
 
+2. Edite o arquivo `.env` para definir:
+   - `DB_HOST`, `DB_PORT`, `DB_NAME`
+   - `MUSEUM_NAME`
+   - Outros parâmetros conforme necessário.
+
+3. (Opcional) Atualize `src/main/webapp/content/config-museu/museum-config.json` para alterar títulos e legendas de **navbar** e **footer**.
+
+## Como Executar
+
+### Usando Docker Compose
+
+```bash
+docker-compose --env-file .env -f src/main/docker/app.yml up -d --build
+```
+
+- Backend: `localhost:8080`
+- Frontend: `localhost:8080` (via NGINX ou diretamente)
+
+Para derrubar os containers:
+
+```bash
+docker-compose -f src/main/docker/app.yml down
+```
+
+### Desenvolvimento Local
+
+#### Backend
+
+```bash
+cd src
+mvn -DskipTests clean package
+./mvnw
+```
+
+#### Frontend
+
+```bash
+cd src/main/webapp
+npm install
+ng serve --open
+```
+
+## Personalização do Museu
+
+1. **Textos**  
+   Edite o JSON em `content/config-museu/museum-config.json`:
+   ```json
+   {
+     "navbar": { "museumName": "Seu Museu" },
+     "footer": {
+       "title": "Seu Museu",
+       "quote": "...",
+       "citation": "– Autor",
+       "copyright": ""
+     }
+   }
+   ```
+
+2. **Imagens e Vídeos**  
+   Substitua arquivos em:
+   - `content/images/` (capa, cartões)
+   - `content/video/` (apresenta.mp4, video_capa.png)
+   - `content/data/images/` (imagens de conteúdo)
+
+3. **Textos de Conteúdo**  
+   Altere ou adicione `.txt` ou `.csv` em `content/data/texts/`.
+
+## Documentação
+
+- Relatório final em PDF e fontes LaTeX dentro de `_RELATORIO/`.
+- Slides e demais artefatos podem ser acrescentados conforme convém.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
