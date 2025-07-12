@@ -1,0 +1,64 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="!isLoading && historia === null">
+  <h1 class="page-heading">História não encontrada</h1>
+  <p>A história que tentou visualizar não existe.</p>
+</div>
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="historia">
+  <h1 id="page-heading" data-cy="CategoriaHeading">
+    <span>{{ historia?.titulo }}</span>
+  </h1>
+</div>
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+<div class="col-md-10 mx-auto" *ngIf="historia.id != 4 && historia">
+  <p class="text-left">
+    <b>{{ historia?.autor }}</b>
+  </p>
+</div>
+<div *ngIf="historia?.fotos?.length > 0"></div>
+<div class="col-md-8 mx-auto text-center" style="margin-bottom: 32px">
+  <ngb-carousel
+    class="no-indicators"
+    #carousel
+    *ngIf="historia?.fotos?.length > 0"
+    [interval]="0"
+    [wrap]="true"
+    [showNavigationArrows]="historia?.fotos?.length > 1"
+  >
+    <ng-template ngbSlide *ngFor="let foto of historia.fotos">
+      <div class="picsum-img-wrapper">
+        <img class="card-img-top m-0" src="{{ basePath }}{{ foto.imagemPath }}" />
+      </div>
+      <div
+        class="carousel-caption"
+        style="
+          padding-top: 0;
+          width: 100%;
+          z-index: 10;
+          color: #000000;
+          background-color: #ffffff;
+          text-align: center;
+          top: 98%;
+          left: 0;
+          bottom: auto;
+          -webkit-transform: translate(0, -50%);
+          -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+        "
+        *ngIf="foto.legenda"
+      >
+        <p>&quot;{{ foto.legenda }}&quot;</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
+<div class="col-md-10 mx-auto" *ngIf="historia">
+  <br />
+  <div innerHTML="{{ descricao }}"></div>
+  <br />
+  <hr />
+  <div *ngFor="let ref of historia.referenciaHistorias">
+    <div innerHTML="{{ ref.conteudo }}"></div>
+  </div>
+</div>

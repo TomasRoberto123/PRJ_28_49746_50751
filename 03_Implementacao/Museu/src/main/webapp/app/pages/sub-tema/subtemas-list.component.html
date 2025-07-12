@@ -1,0 +1,47 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="!isLoading && subtemas.length === 0">
+  <h1>Categoria não encontrada</h1>
+  <p>A categoria que tentou visualizar não existe.</p>
+</div>
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="subtemas.length > 0">
+  <h1 id="page-heading" data-cy="CategoriaHeading">
+    <span>{{ subtemas[0]?.categoria.nome }}</span>
+  </h1>
+</div>
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="subtemas">
+  <ngb-accordion id="acordiao" #a="ngbAccordion" [closeOthers]="true" activeIds="custom-panel-0" (panelChange)="scrollSubtemas()">
+    <ngb-panel *ngFor="let subTema of subtemas; index as index" id="custom-panel-{{ index }}">
+      <ng-template ngbPanelTitle let-opened="opened" class="no-outline mx-0">
+        <div id="{{ index }}">
+          <h4 class="no-outline">
+            <span class="no-outline">{{ subTema.nome }}</span>
+          </h4>
+        </div>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        <div class="row">
+          <div
+            class="col-12 col-sm-6 col-lg-3 d-flex align-items-stretch"
+            style="cursor: pointer; margin-bottom: 32px"
+            *ngFor="let instrumento of subTema.instrumentos"
+          >
+            <div class="card h-100 text-center w-100" (click)="goToInstrumento(instrumento.id)" style="background-color: rgba(0, 0, 0, 0.03)">
+              <img
+                *ngIf="instrumento.fotos?.length > 0"
+                class="card-img-top img-fluid m-0"
+                [src]="basePath + instrumento.fotos[0].imagemPath"
+                alt="foto image"
+              />
+              <div class="card-footer m-0 center">
+                <p>{{ instrumento.nome }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</div>

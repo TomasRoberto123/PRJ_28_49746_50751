@@ -1,0 +1,1 @@
+<p>O <i><b>shunt</b></i> (ou caixa de resistências) é uma caixa de latão cilíndrica, que contém no seu interior duas resistências eléctricas de 5Ω e 10Ω. Estas resistências podem ser inseridas em paralelo num circuito destinado a determinar a intensidade da corrente eléctrico, por intermédio de um galvanómetro.</p>

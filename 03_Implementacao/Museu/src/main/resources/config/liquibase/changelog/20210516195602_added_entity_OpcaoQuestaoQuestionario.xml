@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity OpcaoQuestaoQuestionario.
+    -->
+    <changeSet id="20210516195602-1" author="museu">
+        <createTable tableName="opcao_questao_questionario">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="opcao_texto" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="correcta" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="questao_questionario_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+        </createTable>
+
+        <loadData
+            file="config/liquibase/data/opcao_questao_questionario.csv"
+            separator=";"
+            tableName="opcao_questao_questionario">
+            <column name="id" type="numeric"/>
+            <column name="opcao_texto" type="string"/>
+            <column name="correcta" type="boolean"/>
+            <column name="questao_questionario_id" type="numeric"/>
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,3 @@
+<p>A <i><b>roda cónica</b></i> (fig. 87) é um aparelho constituído por uma engrenagem, formada por duas rodas dentadas <b>D</b> e <b>D’</b>, com uma configuração tal que permite converter um movimento de rotação em torno de um eixo, noutro movimento de rotação em torno de um eixo perpendicular.</p>
+<p>“<i>As rodas dentadas podem transformar um movimento de rotação noutro, também de rotação, mas com o eixo perpendicular ao primeiro; para isso os dentes</i> (destas rodas) <i>devem estar numa superfície cónica em vez de cilíndrica, como a figura 87  indica.</i>”</p>
+<p>(transcrito de F. J. Sousa Gomes, A. R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Editora Livraria Cruz, Braga 1918).</p>

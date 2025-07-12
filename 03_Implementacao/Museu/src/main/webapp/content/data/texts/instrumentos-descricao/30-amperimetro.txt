@@ -1,0 +1,2 @@
+<p>O <b>amperímetro</b> é um aparelho destinado a medir a intensidade da corrente eléctrica. O valor da intensidade da corrente é medido directamente numa escala graduada em ampère, que é a unidade do Sistema Internacional de Unidades. O seu princípio de funcionamento é semelhante ao do <b>galvanómetro</b>.</p>
+

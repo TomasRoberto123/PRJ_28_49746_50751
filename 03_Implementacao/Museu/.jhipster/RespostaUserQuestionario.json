@@ -1,0 +1,33 @@
+{
+  "name": "RespostaUserQuestionario",
+  "fields": [
+    {
+      "fieldName": "pontuacao",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "respostaUserQuestionario",
+      "relationshipName": "user"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "questionario",
+      "otherEntityRelationshipName": "respostaUserQuestionario",
+      "relationshipName": "questionario"
+    }
+  ],
+  "entityTableName": "resposta_user_questionario",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210516195603"
+}

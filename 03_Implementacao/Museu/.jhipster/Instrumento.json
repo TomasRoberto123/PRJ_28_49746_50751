@@ -1,0 +1,60 @@
+{
+  "name": "Instrumento",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codigo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localizacao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fabricante",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dimensoes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descricaoPath",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "foto",
+      "otherEntityRelationshipName": "instrumento",
+      "relationshipName": "foto"
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "questaoQuestionario",
+      "otherEntityRelationshipName": "instrumento",
+      "relationshipName": "questaoQuestionario",
+      "ownerSide": false
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "subTema",
+      "otherEntityRelationshipName": "instrumento",
+      "relationshipName": "subTema"
+    }
+  ],
+  "entityTableName": "instrumento",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210516195556"
+}

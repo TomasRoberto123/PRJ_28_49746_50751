@@ -1,0 +1,27 @@
+/* cor do titulo */
+h1 {
+  color: #383e42;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.card h5,
+p {
+  color: #515a5a;
+}
+
+.card:hover {
+  background-color: #c4c4c4;
+}
+
+.card:hover h5 {
+  color: #383e42;
+  font-weight: bold;
+}
+
+.card:hover p {
+  color: #383e42;
+  font-weight: bold;
+}

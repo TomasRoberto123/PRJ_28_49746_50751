@@ -1,0 +1,41 @@
+{
+  "name": "Historia",
+  "fields": [
+    {
+      "fieldName": "titulo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "autor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "conteudoPath",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "foto",
+      "otherEntityRelationshipName": "historia",
+      "relationshipName": "foto"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "referenciaHistoria",
+      "otherEntityRelationshipName": "historia",
+      "relationshipName": "referenciaHistoria"
+    }
+  ],
+  "entityTableName": "historia",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210516195605"
+}

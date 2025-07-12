@@ -1,0 +1,44 @@
+<!-- Mensagem de página não encontrada -->
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="!modulogamificacao">
+  <h1 class="page-heading">Esta página não existe.</h1>
+</div>
+
+<!-- Heading Quiz -->
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="modulogamificacao">
+  <h1 id="page-heading" data-cy="QuestionariosHeading">
+    <span>Quiz</span>
+  </h1>
+</div>
+
+<!-- Botão para ir ao topo -->
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+
+<!-- Alerta sem questionários -->
+<div class="alert alert-warning col-md-12" id="no-result" *ngIf="questionarios?.length === 0 && modulogamificacao">
+  <span>No questionarios found</span>
+</div>
+
+<!-- Lista de questionários -->
+<div class="col-md-10 p-0 mx-auto mb-4" *ngIf="modulogamificacao">
+  <div class="row">
+    <div
+      class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"
+      *ngFor="let questionario of questionarios"
+      (click)="goToQuestionario(questionario.id)"
+    >
+      <div class="card h-100 text-center" style="cursor: pointer">
+        <img
+          class="card-img-top img-fluid m-0"
+          [src]="basePath + questionario.categoria.imagemPath"
+          alt="foto image"
+        />
+        <div class="card-header">
+          <h5 class="card-title">{{ questionario.nome }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

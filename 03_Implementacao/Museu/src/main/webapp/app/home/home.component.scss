@@ -1,0 +1,144 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+
+.hipster {
+  display: inline-block;
+  width: 347px;
+  height: 497px;
+  background: url('../../content/images/isel_logo2.svg') no-repeat center top;
+  background-size: contain;
+}
+
+/* wait autoprefixer update to allow simple generation of high pixel density media query */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (-moz-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .hipster {
+    background: url('../../content/images/isel_logo2.svg') no-repeat center top;
+    background-size: contain;
+  }
+}
+
+@supports (-moz-appearance: meterbar) {
+  .video-view .video-content {
+    left: 79.4% !important;
+    position: relative;
+    top: 91% !important;
+    z-index: 1;
+  }
+  video {
+    position: relative;
+    top: 10%;
+    object-fit: cover;
+    height: 80% !important;
+  }
+  .video-view .video-content button {
+    color: #383e42 !important;
+    font-size: 1.1rem;
+  }
+  .video-view .video-content button:hover {
+    font-weight: bold;
+  }
+}
+
+::ng-deep .tooltip-inner {
+  max-width: 100% !important;
+  background-color: #ffffff;
+  color: #515a5a;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.125);
+  border-width: thin;
+  font-size: 18px;
+}
+
+.min-vh-50 {
+  min-height: 50vh !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+.video-view {
+  position: relative;
+}
+
+.video-view .video {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  background-color: #ccc;
+}
+
+.video-view .video-content {
+  left: 78.8%;
+  position: absolute;
+  top: 1%;
+  z-index: 1;
+}
+
+.video-view .video-content button {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+.video-view .video-content button:hover {
+  font-weight: bold;
+}
+
+.card:hover .card-header {
+  background-color: #c4c4c4;
+  color: #383e42;
+}
+
+.card:hover .card-header h5 {
+  font-weight: bold;
+}
+
+.card .card-header {
+  background-color: #ffffff;
+  color: #515a5a;
+  height: 57px;
+}
+
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding: 2px 4px;
+    font-size: 0.9rem !important;
+    line-height: 1;
+    border-radius: 3px;
+  }
+  .video-view .video-content {
+    left: 74% !important;
+    top: 80% !important;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding: 4px 9px;
+    font-size: 1rem !important;
+    line-height: 1.2;
+  }
+}
+.btn {
+  /*background-color: #e8e8e8;*/
+  color: #383e42;
+  font-size: 1.1rem;
+}
+.btn:hover {
+  font-weight: bold;
+}
+
+body {
+  background-color: #000111 !important;
+}
+
+.imagem {
+  object-fit: contain !important;
+}

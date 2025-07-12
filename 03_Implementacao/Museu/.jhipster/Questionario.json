@@ -1,0 +1,44 @@
+{
+  "name": "Questionario",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descricao",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "categoria",
+      "otherEntityRelationshipName": "questionario",
+      "relationshipName": "categoria",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "respostaUserQuestionario",
+      "otherEntityRelationshipName": "questionario",
+      "relationshipName": "respostaUserQuestionario"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "questaoQuestionario",
+      "otherEntityRelationshipName": "questionario",
+      "relationshipName": "questaoQuestionario"
+    }
+  ],
+  "entityTableName": "questionario",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210516195600"
+}

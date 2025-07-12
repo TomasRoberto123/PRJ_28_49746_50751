@@ -1,0 +1,81 @@
+<div *ngIf="entry" style="width: 100%; cursor: pointer">
+  <img class="imagem img-fluid" src="./content/images/capa.png" (click)="setEntry(); video = true" />
+</div>
+<div class="row" *ngIf="video">
+  <div class="col-12 mx-auto mb-3">
+    <div class="card m-0 p-0 text-center" style="border-style: none">
+      <div class="video-view">
+        <video class="video" poster="../../content/video/video_capa.png" width="70%" height="70%" controls class="mx-auto">
+          <source src="../../content/video/apresenta.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-content">
+          <button class="btn btn-responsive border-none text-white pr-0" (click)="video = false">Saltar vídeo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-10 mx-auto">
+  <div class="row" *ngIf="!video && !entry && modulogamificacao">
+    <div class="col-md-3 mb-2 ml-auto">
+      <button class="btn mx-auto float-right pr-0" (click)="video = true">
+        <fa-icon icon="play"></fa-icon>
+        <span>Video de Apresentação</span>
+      </button>
+    </div>
+  </div>
+  <div class="row" *ngIf="!video && !entry && !modulogamificacao">
+    <div class="col-6 mx-auto">
+      <button class="btn mx-auto float-right pr-0" (click)="video = true">
+        <fa-icon icon="play"></fa-icon>
+        <span>Video de Apresentação</span>
+      </button>
+    </div>
+  </div>
+  <div class="row" *ngIf="!video && !entry">
+    <div class="col-6 mx-auto">
+      <div
+        class="card text-center"
+        (click)="goToVisitaLivre()"
+        style="cursor: pointer; max-width: 200%"
+        placement="top"
+        [ngbTooltip]="tipVisitalivre"
+      >
+        <ng-template #tipVisitalivre> Carregue aqui para poder visitar o nosso catálogo à sua vontade. </ng-template>
+        <img
+          class="card-img-top min-vh-50 img-fluid"
+          src="./content/images/visita_livre_imagem.png"
+          style="max-width: 100%; align-self: center; cursor: pointer"
+          alt="foto image"
+        />
+        <div class="card-header">
+          <h5 class="card-title">Visitar</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 mx-auto" *ngIf="modulogamificacao">
+      <div
+        class="card text-center"
+        (click)="goToVisitaExploratoria()"
+        style="cursor: pointer; max-width: 200%"
+        placement="top"
+        [ngbTooltip]="tipVisitaexploratoria"
+      >
+        <ng-template #tipVisitaexploratoria>
+          Carregue aqui para que possa descobrir os nossos instrumentos enquanto lhe são apresentados perguntas sobre os mesmos.
+        </ng-template>
+        <img
+          class="card-img-top min-vh-50 img-fluid"
+          src="./content/images/visita_exploratoria_imagem.png"
+          style="max-width: 100%; align-self: center; cursor: pointer"
+          alt="foto image"
+        />
+        <div class="card-header">
+          <h5 class="card-title">Explorar</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+id;nome;descricao;imagem_path
+1;Acústica;Categoria de instrumentos de Acústica;data/images/img_acustica2.jpg
+2;Calor e Termodinâmica;Categoria de instrumentos de Calor e Termodinâmica;data/images/img_calor.jpg
+3;Capilaridade;Categoria de instrumentos de Capilaridade;data/images/img_capilaridade.jpg
+4;Electromagnetismo;Categoria de instrumentos de Electromagnetismo;data/images/img_electro.jpg
+5;Hidrostática e Hidrodinâmica;Categoria de instrumentos de Hidrostática e Hidrodinâmica;data/images/img_hidroe.jpg
+6;Mecânica;Categoria de instrumentos de Mecânica;data/images/img_mecanica.jpg
+7;Óptica;Categoria de instrumentos de Óptica;data/images/img_optica.jpg
+
+

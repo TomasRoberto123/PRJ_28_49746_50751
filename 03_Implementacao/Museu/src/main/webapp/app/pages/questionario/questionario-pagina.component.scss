@@ -1,0 +1,57 @@
+.progress {
+  background-color: #ffffff !important;
+  border: #5c5c5c;
+  border-style: solid;
+  border-width: thin;
+}
+::ng-deep .progress-bar {
+  background-color: #c4c4c4 !important;
+}
+
+.card-img-top {
+}
+
+.border-0 {
+  max-width: 25%;
+  max-height: 25%;
+}
+h1 span {
+  font-size: 2.5rem;
+  color: #383e42;
+}
+h4 {
+  font-size: 1.25rem;
+  color: #383e42;
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: #383e42;
+}
+
+span {
+  font-size: 1.1rem;
+  color: #383e42;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: red;
+  border-color: #6c757d;
+  background-color: #6c757d;
+  box-shadow: none;
+}
+
+.btn {
+  color: #c4c4c4;
+  font-size: 1.1rem;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn:not(:disabled):hover {
+  font-weight: bold;
+}
+.btn:not(:disabled) {
+  color: #383e42;
+  outline: none !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,19 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px">
+  <h1 id="page-heading" data-cy="HistoriaHeading">
+    <span>História</span>
+  </h1>
+</div>
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+<div class="col-md-10 mx-auto" *ngFor="let hist of historias" style="margin-bottom: 32px">
+  <div class="card" style="cursor: pointer" (click)="goToHistoria(hist.id)">
+    <div class="card-body">
+      <div class="col-mb-6 float-left">
+        <h5 class="card-title">{{ hist.titulo }}</h5>
+        <p class="card-text">{{ hist.autor }}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,303 @@
+@import 'bootstrap-variables';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+/* ==============================================================
+Bootstrap tweaks
+===============================================================*/
+
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Lato-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Lato-Italic.ttf') format('truetype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Lato-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Lato-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+.bs-tooltip-top {
+  top: 89.6% !important;
+}
+
+p,
+span,
+body,
+h3,
+h4,
+h5,
+h6 {
+  font-family: myFont;
+}
+
+h1,
+h2 {
+  font-family: myFont;
+  font-weight: bold;
+}
+b {
+  font-family: myFont;
+}
+i {
+  font-family: myFont;
+}
+p {
+  font-size: 1.25rem;
+}
+
+.btn {
+  font-family: myFont;
+}
+/* Increase contrast of links to get 100% on Lighthouse Accessability Audit. Override this color if you want to change the link color, or use a Bootswatch theme */
+a {
+  color: #515a5a;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #383e42;
+}
+
+/* override hover color for dropdown-item forced by bootstrap to all a:not([href]):not([tabindex]) elements in _reboot.scss */
+a:not([href]):not([tabindex]):hover.dropdown-item {
+  color: $dropdown-link-hover-color;
+}
+
+/* override .dropdown-item.active background-color on hover */
+.dropdown-item.active:hover {
+  background-color: mix($dropdown-link-hover-bg, $dropdown-link-active-bg, 50%);
+}
+
+a:hover {
+  /* make sure browsers use the pointer cursor for anchors, even with no href */
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  color: $dropdown-link-hover-color;
+}
+
+/* ==========================================================================
+Browser Upgrade Prompt
+========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+Generic styles
+========================================================================== */
+
+/* Error highlight on input fields */
+
+.ng-valid[required],
+.ng-valid.required {
+  border-left: 5px solid green;
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid red;
+}
+
+/* other generic styles */
+
+.jh-card {
+  padding: 1.5%;
+  margin-top: 20px;
+  border: none;
+}
+
+.error {
+  color: white;
+  background-color: red;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.break {
+  white-space: normal;
+  word-break: break-all;
+}
+
+.readonly {
+  background-color: #eee;
+  opacity: 1;
+}
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.hand,
+[jhisortby] {
+  cursor: pointer;
+}
+
+/* ==========================================================================
+Custom alerts for notification
+========================================================================== */
+.alerts {
+  .alert {
+    text-overflow: ellipsis;
+    pre {
+      background: none;
+      border: none;
+      font: inherit;
+      color: inherit;
+      padding: 0;
+      margin: 0;
+    }
+    .popover pre {
+      font-size: 10px;
+    }
+  }
+  .jhi-toast {
+    position: fixed;
+    width: 100%;
+    &.left {
+      left: 5px;
+    }
+    &.right {
+      right: 5px;
+    }
+    &.top {
+      top: 55px;
+    }
+    &.bottom {
+      bottom: 55px;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .alerts .jhi-toast {
+    width: 50%;
+  }
+}
+
+/* ==========================================================================
+entity detail page css
+========================================================================== */
+.row-md.jh-entity-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 10px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .row-md.jh-entity-details > {
+    dt {
+      float: left;
+      overflow: hidden;
+      clear: left;
+      text-align: right;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0.5em 0;
+    }
+    dd {
+      border-bottom: 1px solid #eee;
+      padding: 0.5em 0;
+      margin-left: 0;
+    }
+  }
+}
+
+/* ==========================================================================
+ui bootstrap tweaks
+========================================================================== */
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
+}
+
+.thread-dump-modal-lock {
+  max-width: 450px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html {
+  position: relative !important;
+  min-height: 100% !important;
+}
+body {
+  padding-bottom: 264px;
+  color: #383e42;
+}
+jhi-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 264px;
+}
+.formula {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.timer {
+  bottom: 0;
+  width: 100%;
+}
+
+.no-indicators .carousel-indicators {
+  display: none;
+}
+
+.scroll-to-top {
+  font-size: 1.25rem;
+  color: #515a5a;
+  position: fixed;
+  top: 0.625rem;
+  right: 1rem;
+  cursor: pointer;
+}
+.scroll-to-top:hover {
+  color: #383e42;
+  font-weight: bold;
+}
+/* jhipster-needle-scss-add-main JHipster will add new css style */

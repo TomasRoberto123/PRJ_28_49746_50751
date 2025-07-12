@@ -1,0 +1,158 @@
+<footer class="text-white" style="background-color: #393d41">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h4 class=""><b>Da Physica à Engenharia</b></h4>
+        <p>
+          <i style="font-weight: 300">
+            “...é ainda uma instalação notável pela riqueza e boa escolha dos seus instrumentos e de outros elementos de estudo, que fazem
+            das lições do Professor Benevides um dos cursos mais atraentes do instituto.”
+            <span style="font-style: normal">- Francisco Dias da Costa, 1900</span>
+          </i>
+        </p>
+        <p class="text-right"></p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-4 mb-4 mb-md-0" *ngIf="modulogamificacao">
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a routerLink="/visita-livre" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="asterisk" [fixedWidth]="true"></fa-icon>
+              <span>Visitar</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/visita-exploratoria" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="map" [fixedWidth]="true"></fa-icon>
+              <span>Explorar</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/categorias" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="th-list" [fixedWidth]="true"></fa-icon>
+              <span>Instrumentos</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/glossario" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="sort-alpha-down" [fixedWidth]="true"> </fa-icon>
+              <span>Glossário</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/historias" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="book-reader" [fixedWidth]="true"></fa-icon>
+              <span>História</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/questionarios" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="question-circle" [fixedWidth]="true"> </fa-icon>
+              <span>Quiz</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-md-0" *ngIf="!modulogamificacao">
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a routerLink="/visita-livre" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="asterisk" [fixedWidth]="true"></fa-icon>
+              <span>Visitar</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/categorias" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="th-list" [fixedWidth]="true"></fa-icon>
+              <span>Instrumentos</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/glossario" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="sort-alpha-down" [fixedWidth]="true"> </fa-icon>
+              <span>Glossário</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/historias" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="book-reader" [fixedWidth]="true"></fa-icon>
+              <span>História</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/bibliografias" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="th-list" [fixedWidth]="true"></fa-icon>
+              <span>Bibliografia</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/agradecimentos" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="th-list" [fixedWidth]="true"></fa-icon>
+              <span>Ficha Técnica</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-8 mb-4 mb-md-0" *ngIf="modulogamificacao">
+        <ul class="list-unstyled">
+          <li>
+            <a routerLink="/bibliografias" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="th-list" [fixedWidth]="true"></fa-icon>
+              <span>Bibliografia</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="/agradecimentos" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="text-white">
+              <fa-icon icon="th-list" [fixedWidth]="true"></fa-icon>
+              <span>Ficha Técnica</span>
+            </a>
+          </li>
+          <br /><br />
+          <li>
+            <a href="https://www.isel.pt/" class="text-white">
+              <i class="fas fa-university"></i>
+              <span>ISEL</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.isel.pt/departamento/fisica" class="text-white">
+              <i class="fas fa-address-book"></i>
+              <span>Contactos</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-8 mb-4 mb-md-0" *ngIf="!modulogamificacao">
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.isel.pt/" class="text-white">
+              <i class="fas fa-university"></i>
+              <span>ISEL</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://cfisica.isel.pt/contactos.html" class="text-white">
+              <i class="fas fa-address-book"></i>
+              <span>Contactos</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">Copyright © 2021 ISEL</div>
+  <!-- Copyright -->
+</footer>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Questionario.
+    -->
+    <changeSet id="20210516195600-1" author="museu">
+        <createTable tableName="questionario">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="nome" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="descricao" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="categoria_id" type="bigint">
+                <constraints nullable="true" unique="true" uniqueConstraintName="ux_questionario__categoria_id" />
+            </column>
+        </createTable>
+
+        <loadData
+            file="config/liquibase/data/questionario.csv"
+            separator=";"
+            tableName="questionario">
+            <column name="id" type="numeric"/>
+            <column name="nome" type="string"/>
+            <column name="descricao" type="string"/>
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

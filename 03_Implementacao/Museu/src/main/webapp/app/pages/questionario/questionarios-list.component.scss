@@ -1,0 +1,76 @@
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+/* cor do titulo */
+h1 {
+  color: #383e42;
+}
+
+.card:hover div {
+  background-color: #c4c4c4;
+}
+
+.card:hover .card-title {
+  color: #383e42;
+  font-weight: bold;
+}
+
+.card .card-title {
+  color: #515a5a;
+}
+
+.card div {
+  background-color: #ffffff;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none; /* remove a linha */
+  padding: 0.5rem;
+}
+
+.card-title {
+  word-break: break-word;
+  hyphens: auto;
+  text-align: center;
+  padding: 0 0.5rem;
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-footer {
+  padding: 0.5rem;
+  background-color: #ffffff;
+  border-top: none;
+}
+
+/* Pequenas melhorias para responsividade */
+@media (max-width: 575.98px) {
+  .card-img-top {
+    height: 40vw;
+    max-height: 140px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .card-img-top {
+    height: 25vw;
+    max-height: 180px;
+  }
+}

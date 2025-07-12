@@ -1,0 +1,2 @@
+<p>O <i><b>dinamómetro de Poncelet</b></i>, fig. 30, é constituído por duas molas de aço iguais e paralelas <b>A</b> e <b>B</b>, articuladas nas extremidades a duas hastes curtas e rígidas. O afastamento das duas molas de aço é proporcional à intensidade da força que lhe está aplicada. Este tipo de dinamómetro é usado para medir forças de grande intensidade.</p>
+<p>(baseado em F. J. Gomes, Álvaro R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Editora Livraria Cruz, Braga 1918).</p>

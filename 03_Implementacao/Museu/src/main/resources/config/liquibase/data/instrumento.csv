@@ -1,0 +1,147 @@
+id;nome;codigo;localizacao;fabricante;dimensoes;descricao_path;sub_tema_id
+1;Aparelho para estudo das vibrações acústicas;null;vitrine 5;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4757 do respectivo catálogo.;410x400x200 mm madeira, metal e vidro;data/texts/instrumentos-descricao/1-aparelho-para-estudo-das-vibracoes-acusticas.txt;1
+2;Diapasões com caixas de ressonância;null;vitrine 13;Desconhecido;175x198x96 mm, 248x176x102 mm madeira e metal;data/texts/instrumentos-descricao/2-diapasoes.txt;1
+
+3;Barómetro de Adie;null;fora das vitrines;Central Scientific CO (CENCO), Chicago.;930x80x350 mm metal, mercúrio e vidro;data/texts/instrumentos-descricao/3-barometro-de-adie.txt;2
+4;Barómetro grande;null;vitrine 7;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4070 do respectivo catálogo.;560x560x90 mm madeira, metal e vidro;data/texts/instrumentos-descricao/4-barometro-grande.txt;2
+5;Barómetro metálico aneróide;null;vitrine 7;<i>Desconhecido;44x162x157 mm metal e vidro;data/texts/instrumentos-descricao/5-barometro-metalico-aneroide.txt;2
+
+6;Tubo de Bourdon;null;vitrine 7;A. Pfeiffer, Wetzlar (análogo ao nº 2745 do catálogo <i>Physikalische und Chemische Lehrmittel</i>, Dr. Stohrer u. Sohn, Leipzig, 9ª edição, pag.61).;242x100x84 mm metal;data/texts/instrumentos-descricao/6-tubo-de-bourdon.txt;3
+
+7;Aparelho para determinação dos pontos fixos da escala de Celsius;null;vitrine 7;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4365 e nº 4366 do respectivo catálogo.;222x107x107 mm, 425x155x155 mm latão;data/texts/instrumentos-descricao/7-aparelho-para-determinacao-dos-pontos-fixos-da-escala-celsius.txt;4
+8;Pirómetro de Wedgwood;null;vitrine 7;Desconhecido;25x192x75 mm argila, madeira e latão;data/texts/instrumentos-descricao/8-pirometro-de-wedgwood.txt;4
+9;Termómetro diferencial de Leslie;null;vitrine 7;Desconhecido;408x122x108 mm madeira e vidro;data/texts/instrumentos-descricao/9-termometro_diferencial_de_leslie.txt;4
+10;Termómetro de máxima e mínima;null;vitrine 7;Desconhecido, análogo ao nº 91096 do catálogo Max Kohl A. G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz,<i>Allemagne</i>;300x76x50 mm madeira, metal e vidro;data/texts/instrumentos-descricao/10-termometro-de_maxima-e-de-minima.txt;4
+11;Termómetro com 3 escalas (Réaumur, Celsius, Fahrenheit);null;vitrine 7;Max Kohl A. G., <b>Appareils de Physique</b>, nº 100, Tome III, Chemnitz, <i>Allemagne</i>, nº 91072 do respectivo catálogo.;250x57x8 mm madeira, metal, vidro e mercúrio;data/texts/instrumentos-descricao/11-termometro-de-3-escalas.txt;4
+
+12;Máquina de vapor de cilindro vertical;null;vitrine 12;Desconhecido;250x57x8 mm madeira, metal, vidro e mercúrio;data/texts/instrumentos-descricao/12-maquina-a-vapor-de-cilindro-vertical.txt;5
+13;Máquina a vapor marítima de 2 cilindros;null;vitrine 12;Desconhecido;264x745x325 mm madeira e metal;data/texts/instrumentos-descricao/13-maquina-a-vapor-maritima-de-2-cilindro.txt;5
+14;Modelo duma locomotiva a vapor;null;vitrine 12;Desconhecido;281x190x337 mm latão e metal;data/texts/instrumentos-descricao/14-modelo-duma-locomotiva-a-vapor.txt;5
+15;Rodas de pás articuladas;null;vitrine 12;Desconhecido;2304x400x235 mm madeira e metal;data/texts/instrumentos-descricao/15-rodas-de-pas-articuladas.txt;5
+
+16;Anel de ‘s Gravesande;null;vitrine 7;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4343 do respectivo catálogo.;292x93x160 mm cobre, latão, madeira e metal;data/texts/instrumentos-descricao/16-anel-de-s-gravesande.txt;6
+17;Aparelho de Despretz;null;vitrine 7;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 44690 do respectivo catálogo.;390x548x198 mm madeira, metal, vidro e mercúrio;data/texts/instrumentos-descricao/17-aparelho-de-despretz.txt;6
+18;Aparelho de Hope;null;vitrine 7;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4358 do respectivo catálogo.;288x135x135 mm latão e vidro;data/texts/instrumentos-descricao/18-aparelho-de-hope.txt;6
+19;Aparelho de Ingenhousz;null;vitrine 7;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4689 do respectivo catálogo.;88x210x330 mm prata, cobre, latão, ferro, zinco, madeira e vidro;data/texts/instrumentos-descricao/19-aparelho-de-ingenhousz.txt;6
+20;Aparelho para verificação do Princípio da parede fria (ou de Watt) – Fervedor de Franklin;null; ;Desconhecido;75x360x42 mm vidro e líquido volátil;data/texts/instrumentos-descricao/20-aparelho-pricipio-parede-fria.txt;6
+21;Baroscópio;null;vitrine 7;<i>Les Fils d’Émile Deyrolle</i>, Paris.;130x92x155 mm cobre, latão e metal;data/texts/instrumentos-descricao/21-baroscopio.txt;6
+22;Eolípilo de dardo horizontal;null;vitrine 7;Lebrun;185x130x72 mm latão e metal;data/texts/instrumentos-descricao/22-eolipilo-de-dardo-horizontal.txt;6
+23;Hemisférios de Magdeburgo;null;vitrine 7;Desconhecido;237x102x102 mm metal;data/texts/instrumentos-descricao/23-hemisferios-de-magdeburgo.txt;6
+24;Higrómetro de Saussure;null;vitrine 7;<i>Les Fils d’Emile Deyrolle</i>, Paris, nº 4568 do respectivo catálogo.;255x65x17 mm madeira, metal, vidro e mercúrio;data/texts/instrumentos-descricao/24-higrometro-de-saussure.txt;6
+25;Máquina Pneumática;null;vitrine 7;Arthur Pfeiffer Wetzl;314x257x357 mm ferro e madeira, 477x182x182 mm metal e vidro, 335x132x132 mm metal e vidro;data/texts/instrumentos-descricao/25-maquina-pneumatica.txt;6
+26;Pirómetro de quadante;null;vitrine 7;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4243 do respectivo catálogo.;232x400x145 mm cobre, ferro, madeira e metal;data/texts/instrumentos-descricao/26-pirometro-de-quadrante.txt;6
+
+27;Aparelho para estudo da capilaridade;null;vitrine 12;Max Kohl A. G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, <i>Allemagne</i>,  nº 87779 do respectivo catálogo.;312x214x122 mm madeira, plástico e vidro;data/texts/instrumentos-descricao/27-aparelho-para-estudo-da-capilaridade.txt;7
+28;Aparelho de Gay-Lussac;null;vitrine 12;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4296 do respectivo catálogo.;385x400x178 mm madeira, metal e vidro;data/texts/instrumentos-descricao/28-aparelho-de-gay-lussac.txt;7
+29;Aparelho de Hauksbée;null;vitrine 12;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4297 do respectivo catálogo.;560x243x225 mm metal e vidro;data/texts/instrumentos-descricao/29-aparelho-de-hauksbee.txt;7
+
+30;Amperímetro;null;vitrine 8;S. Grauer & Cie, Paris.;50x100x135 mm metal e vidro;data/texts/instrumentos-descricao/30-amperimetro.txt;8
+31;Bússolas tangenciais;null;vitrine 8;Max Kohl A. G., <i>Appareils de Physique</i>, nº 100. Tome III, Chemnitz, Allemagne, Mouilleron, Elliot Bros..;420x300x170 mm metal, madeira e vidro</br>90x210x190 mm madeira metal, vidro, couro e veludo</br>310x200x150 mm metal e vidro;data/texts/instrumentos-descricao/31-bussolas-tangenciais.txt;8
+32;Electrodinamómetro;null;vitrine 8;Ducretet et Roger.;250x205x200 mm metal e madeira;data/texts/instrumentos-descricao/32-electrodinamometro.txt;8
+33;Galvanómetro astático;null;vitrine 8;Peyer Favarger & Cie.;52x120x120 mm madeira, metal e vidro;data/texts/instrumentos-descricao/33-galvanometro-astatico.txt;8
+34;Galvanómetro de espelho;null;vitrine 8; J. Carpentier. Sullivan. Ruhmkorff.;310x210x240 mm madeira, metal e vidro</br>330x250x250 mm madeira, metal e vidro</br>220x455x110 mm madeira, metal e vidro;data/texts/instrumentos-descricao/34-galvanometros-de-espelho.txt;8
+
+35;Bússola de inclinação e declinação;null;vitrine 8;Dr. Stöhrer u. Sohn, <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig, nº 4358 do respectivo catálogo.;270x180x130 mm metal;data/texts/instrumentos-descricao/35-bussola-de-inclinacao.txt;9
+36;Bússola de orientação portátil;null;vitrine 8;Desconhecido;20x45x70 mm madeira, metal, vidro;data/texts/instrumentos-descricao/36-bussola-de-orientacao-portatil.txt;9
+
+37;Pilha de Grenet;null;vitrine 2;Desconhecido;320x130x130 mm vidro, metal e carvão;data/texts/instrumentos-descricao/37-pilha-de-grenet.txt;10
+38;Pilha de Volta;null;vitrine 8;Desconhecido;140x115x115 mm metal, tecido e madeira;data/texts/instrumentos-descricao/38-pilha-de-volta.txt;10
+39;Voltâmetros;null;vitrine 2;<i>Les Fils d’Emile Deyrolle</i>, Paris. Max Kohl A. G. <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne.;422x207x207 mm metal e vidro</br>760x110x200 mm metal, vidro e madeira;data/texts/instrumentos-descricao/39-voltametros.txt;10
+
+40;Aparelho para dança de bolas de sabugueiro;null;vitrine 2;Max Kohl A. G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne, nº 92524 do respectivo catálogo.;185x107x107 mm metal, vidro, madeira;data/texts/instrumentos-descricao/40-aparelho-para-danca-de-bolas-de-sabugueiro.txt;11
+41;Balança de torção de Coulomb;null; ;<i>Les Fils d’Emile Deyrolle</i>, Paris.;620x325x325 mm metal, vidro e madeira;data/texts/instrumentos-descricao/41-balanca-de-torcao-de-coulomb.txt;11
+42;Electroscópios de folhas;null;vitrine 2;Desconhecido;340x90x110 mm metal, vidro e cortiça</br>220x90x90 mm metal, vidro, borracha e madeira;data/texts/instrumentos-descricao/42-electroscopios-de-folhas.txt;11
+43;Garrafa de Leiden;null;vitrine 2;Desconhecido;330x90x90 mm metal e vidro;data/texts/instrumentos-descricao/43-garrafa-de-leiden.txt;11
+44;Ovo eléctrico;null;vitrine 2;Max Kohl A. G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne.;620x160x190 mm metal e vidro;data/texts/instrumentos-descricao/44-ovo-electrico.txt;11
+45;Pêndulo eléctrico de bola de sabugueiro com suporte isolante;null;vitrine 2;Desconhecido;470x150x80 mm cordel, madeira, metal e vidro;data/texts/instrumentos-descricao/45-pendulo-electrico-de-bola-de-sabugueiro-com-suporte-isolante.txt;11
+46;Suportes universais para experiências de electrostática e respectivos acessórios;null;vitrine 8;Dr. Stöhrer u. Sohn, <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig, nº 4723, 4723/2, 4738 do respectivo catálogo.;Várias medidas;data/texts/instrumentos-descricao/46-suportes-universais-para-experiencias-de-electrostatica-e-respectivos-acessorios.txt;11
+47;Tubos de Geissler;null;vitrine 15;Desconhecido;157x30x25 mm 150x27x23 mm 200x28x35 mm alumínio, gás e vidro</br>430x112x112 mm alumínio, gás, madeira e vidro;data/texts/instrumentos-descricao/47-tubos-de-geissler.txt;11
+48;Excitador eléctrico;null;vitrine 12;Max Kohl A. G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne, nº 92613 do respectivo catálogo.;415x184x30 mm metal e acrílico;data/texts/instrumentos-descricao/48-excitador-electrico.txt;11
+
+49;Máquina magneto-eléctrica;null;vitrine 8;Desconhecido;430x255x150 mm metal e madeira;data/texts/instrumentos-descricao/49-maquina-magneto-electrica.txt;12
+50;Motor eléctrico;null;vitrine 8;Desconhecido;220x240x150 mm metal e madeira;data/texts/instrumentos-descricao/50-motor-electrico.txt;12
+51;Motor eléctrico gira tubos;null;vitrine 8;<i>Les Fils d’Emile Deyrolle</i>, Paris.;150x135x100 mm metal e madeira;data/texts/instrumentos-descricao/51-motor-electrico-gira-tubos.txt;12
+52;Roda de Barlow;null;vitrine 8;Desconhecido;210x250x145 mm metal e madeira;data/texts/instrumentos-descricao/52-roda-de-barlow.txt;12
+
+53;Aparelhos para visualização das linhas de força do campo magnético;null;vitrine 8;Laboratório de Física do IIL.;250x250x175 mm metal, acrílico e madeira</br>180x250x175 mm metal, acrílico e madeira</br>290x245x175 mm metal, acrílico e madeira;data/texts/instrumentos-descricao/53-aparelhos-para-visualizacao-das-linhas-de-forca-do-campo-magnetico.txt;13
+54;Bobinas de Ruhmkorff;null;vitrine 8;Desconhecido;140x320x80 mm madeira, metal e fio condutor isolado</br>170x315x145 mm madeira, metal e fio condutor isolado</br>250x400x210 mm madeira, metal e fio condutor isolado;data/texts/instrumentos-descricao/54-bobinas-de-ruhmkorff.txt;13
+55;Bobina dupla de Faraday;null;vitrine 8;Desconhecido;160x125x160 mm madeira, metal e fio condutor;data/texts/instrumentos-descricao/55-bobina-dupla-de-faraday.txt;13
+56;Electroscópio meteorológico de Peltier;null;vitrine 2;Desconhecido;142x275x184 mm metal, vidro, madeira, tecido;data/texts/instrumentos-descricao/56-electroscopio-meteorologico-de-peltier.txt;13
+57;Mesa de Ampère;null;vitrine 8;Dr. Stöhrer u. Sohn, <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig, nº 5305 do respective catálogo.;405x260x160 mm metal, madeira e fio condutor isolado;data/texts/instrumentos-descricao/57-mesa-de-ampere.txt;13
+58;Pilha termo-eléctrica;null;vitrine 8;W.M. Welsh Scientific Company, <i>Laboratory Apparatus and Supplies for Physics and Chemistry</i>, Catalog “G”, Chicago, 1922, nº 1747 do respectivo catálogo.;150x115x70 mm metal;data/texts/instrumentos-descricao/58-pilha-termo-electrica.txt;13
+59;Reóstato;null;vitrine 8;S. Grauer et Cie, Paris.;40x180x325 mm madeira e metal;data/texts/instrumentos-descricao/59-reostato.txt;13
+60;Shunt;null;vitrine 8;Desconhecido;160x105x105 mm metal;data/texts/instrumentos-descricao/60-shunt.txt;13
+
+61;Máquina de elevação de água;null;vitrine 6;Desconhecido;470x590x355 mm madeira e metal;data/texts/instrumentos-descricao/61-maquina-de-elevacao-de-agua.txt;14
+62;Modelo de uma Nora;null;vitrine 6;Desconhecido;720x410x295 mm madeira e metal;data/texts/instrumentos-descricao/62-modelo-de-uma-nora.txt;14
+63;Parafuso de Arquimedes;null;vitrine 6;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4277 do respectivo catálogo.;310x395x145 mm madeira, metal e vidro;data/texts/instrumentos-descricao/63-parafuso-de-arquimedes.txt;14
+
+64;Bomba aspirante;null;vitrine 5;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4272 do respectivo catálogo.;600x420x300 mm madeira, metal e vidro;data/texts/instrumentos-descricao/64-bomba-aspirante.txt;15
+65;Bomba de incêndios;null;vitrine 6;<i>Les Fils d’Émile Deyrolle</i>, Paris.;430x470x300 mm latão,madeira, metal e vidro;data/texts/instrumentos-descricao/65-bomba-de-incendios.txt;15
+
+66;Aparelhos de Haldat;null;vitrine 5;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3833 do respectivo catálogo.;650x550x220 mm madeira, metal e vidro;data/texts/instrumentos-descricao/66-aparelhos-de-haldat.txt;16
+67;Aparelhos de Pascal;null;vitrine 12;Desconhecido;400x260x172 mm madeira, metal e vidro;data/texts/instrumentos-descricao/67-aparelhos-de-pascal.txt;16
+68;Aparelhos de Pascal - Prensa Hidraulica;null;vitrine 12;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3824 do respectivo catálogo.;284x402x200 mm madeira e metal;data/texts/instrumentos-descricao/68-aparelhos-de-pascal.txt;16
+69;Aparelho de Sire;null;vitrine 6;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3835 do respectivo catálogo.;760x305x240 mm metal e vidro;data/texts/instrumentos-descricao/69-aparelho-de-sire.txt;16
+70;Carneiro hidráulico;null;vitrine 12;Desconhecido, análogo ao nº 2375 do catálogo.Dr. Stöhrer u. Sohn, <i>Physikalische und Chemische Ledhrmittel</i>, Ausgabe IX, Leipzig.;420x400x145 mm madeira, metal e vidro;data/texts/instrumentos-descricao/70-carneiro-hidraulico.txt;16
+71;Esfera de Pascal;null;vitrine 6;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3829 do respectivo catálogo.;380x150x150 mm latão;data/texts/instrumentos-descricao/71-esfera-de-pascal.txt;16
+72;Fonte de Héron;null;fora das vitrines;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 4259 do respectivo catálogo.;1200x300x300 mm vidro e metal;data/texts/instrumentos-descricao/72-fonte-de-heron.txt;16
+73;Fonte dupla de Héron;null;vitrine 6;Desconhecido;450x260x250 mm metal cinzelado e vidro;data/texts/instrumentos-descricao/73-fonte-dupla-de-heron.txt;16
+74;Funil mágico;null;vitrine 6;Desconhecido, análogo ao nº 87915 do catálogo Max Kohl A.G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne.;160x140x140 mm metal;data/texts/instrumentos-descricao/74-funil-magico.txt;16
+75;Sistema de vasos comunicantes;null;vitrine 6;Desconhecido, análogo ao nº 87649 do catálogo Max Kohl A.G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne.;215x435x130 mm borracha, metal e vidro;data/texts/instrumentos-descricao/75-sistema-de-vasos-comunicantes.txt;16
+76;Vaso de Mariotte;null;vitrine 12;Desconhecido;390x190x112 mm vidro;data/texts/instrumentos-descricao/76-vaso-de-mariotte.txt;16
+77;Vaso de Tântalo;null;vitrine 12;Desconhecido;135x81x81 mm vidro;data/texts/instrumentos-descricao/77-vaso-de-tantalo.txt;16
+
+
+
+78;Craveira com nónio quinquagesimal;null;vitrine 13;P. Roche Rolle -Suisse;220x73x8 mm metal;data/texts/instrumentos-descricao/78-craveira-com-nonia-quinquagesimal.txt;17
+79;Cunha micrométrica;null;vitrine 13;Chesterman – Sheffield, England. (análoga ao nº 97 do catálogo W. M. Welch Scientific Company, <i>Laboratory Apparatus and Supplies for Physics and Chemistry</i>, Catalog “G”, Chicago, 1922);192x31x5 mm aço;data/texts/instrumentos-descricao/79-cunha-micrometrica.txt;17
+80;Goniómetro de aplicação;null;vitrine 13;Desconhecido;55x120x8 mm latão;data/texts/instrumentos-descricao/80-goniometro-de-aplicacao.txt;17
+81;Esferómetro;null;vitrine 13;Desconhecido;118x82x82 mm latão e metal;data/texts/instrumentos-descricao/81-esferometro.txt;17
+82;Nónio curvilíneo;null;vitrine 13;Desconhecido, análogo ao nº 1551 do catálogo Dr. Stöhrer u. Sohn, <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig.;150x150x5 mm metal;data/texts/instrumentos-descricao/82-nonio-curvilineo.txt;17
+83;Palmer com passo de parafuso de 0,5 mm;null;vitrine 13;Moore & Wright - Sheffield, England;92x41x13 mm metal;data/texts/instrumentos-descricao/83-palmer-com-passo-de-parafuso.txt;17
+84;Planímetro de Amsler;null;vitrine 13;J. Amsler (fornecedor Pimentel e Casquilho);172x39x25 mm metal;data/texts/instrumentos-descricao/84-planimetro-de-amsler.txt;17
+
+85;Balança de cereais;null;vitrine 13;Desconhecido;436x461x155 mm latão;data/texts/instrumentos-descricao/85-balanca-de-cereais.txt;18
+86;Balança comum (de braços iguais);null;vitrine 13;Balanças e Moinhos - A. C. Marques - Lisboa;437x460x127 mm latão e metal;data/texts/instrumentos-descricao/86-balanca-comum.txt;18
+87;Balança Hidrostática;null;vitrine 13;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3874 do respectivo catálogo.;640x570x170 mm latão;data/texts/instrumentos-descricao/87-balanca-hidrostatica.txt;18
+88;Balança de Mohr-Westphal;null;vitrine 13;Desconhecido, análogo ao nº 1660 do catálogo Dr. Stöhrer u. Sohn <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig.;92x242x178 mm madeira e metal;data/texts/instrumentos-descricao/88-balanca-de-mohr-westphal.txt;18
+89;Balança de precisão;null;vitrine 13;Desconhecido;484x410x260 mm madeira, metal e vidro;data/texts/instrumentos-descricao/89-balanca-de-precisao.txt;18
+90;Balança romana;null;vitrine 13;Desconhecido;980x120x55 mm aço e metal;data/texts/instrumentos-descricao/90-balanca-romana.txt;18
+91;Pesa Cartas;null;vitrine 13;Desconhecido;183x120x90 mm latão e metal;data/texts/instrumentos-descricao/91-pesa-cartas.txt;18
+
+92;Dinamómetro de mola em hélice;null;vitrine 13;Desconhecido;188x40x20 mm latão e metal;data/texts/instrumentos-descricao/92-dinamometro-de-mola-em-helice.txt;19
+93;Dinamómetro de Poncelet;null;vitrine 13;<i>Les Fils d’Emile Deyrolle</i>, Paris;160x260x48 mm aço e metal;data/texts/instrumentos-descricao/93-dinamometro-de-poncelet.txt;19
+
+94;Cabrestante;null;vitrine 14;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº3517 do respectivo catálogo.;180x281x403 mm corda, madeira e metal;data/texts/instrumentos-descricao/94-cabrestante.txt;20
+95;Cegonha;null;vitrine 14;Desconhecido;252x470x130 mm madeira e metal;data/texts/instrumentos-descricao/95-cegonha.txt;20
+96;Molinete;null;vitrine 14;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3518 do respectivo catálogo.;185x200x142 mm ferro e madeira;data/texts/instrumentos-descricao/96-molinete.txt;20
+97;Plano inclinado e disco;null;vitrine 14;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3629 do respectivo catálogo.;82x495x158 mm madeira;data/texts/instrumentos-descricao/97-plano-inclinado-e-disco.txt;20
+98;Rodas cónicas de transmissão de movimento;null;vitrine 14;<i>Les Fils d’Émile Deyrolle</i>, Paris;145x194x128 mm madeira e metal;data/texts/instrumentos-descricao/98-rodas-conicas-de-transmissao-de-movimento.txt;20
+99;Roldanas fixas, móveis e associações de roldanas fixas e móveis;null;vitrine 3;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3514 do respectivo catálogo.;550x650x205 mm madeira, metal e fio;data/texts/instrumentos-descricao/99-roldanas-fixas-moveis-e-associacoes-de-roldanas-fixas-e-moveis.txt;20
+100;Sarilho;null;vitrine 14;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3515 do respectivo catálogo.;165x325x240 mm corda, madeira e metal;data/texts/instrumentos-descricao/100-sarilho.txt;20
+101;Sarilho Diferencial;null;vitrine 14;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 3516 do respectivo catálogo.;165x319x240 mm corda, madeira e metal;data/texts/instrumentos-descricao/101-sarilho-diferencial.txt;20
+
+102;Torniquete de gás;null;vitrine 12;Desconhecido;363x320x510 mm madeira e metal;data/texts/instrumentos-descricao/102-torniquete-de-gas.txt;21
+103;Torniquete hidráulico;null;vitrine 5;Desconhecido;600x445x340 mm madeira e metal;data/texts/instrumentos-descricao/103-torniquete-hidraulico.txt;21
+104;Torniquete de reacção a vapor com esfera girante de Héron;null;vitrine 7;Max Kohl A G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne, nº 91533 do respectivo catálogo.;203x150x85 mm latão;data/texts/instrumentos-descricao/104-torniquete-de-reaccao-a-vapor-com-esfera-girante-de-heron.txt;21
+
+105;Aparelho para demonstração dos efeitos da força centrífuga e respectivos acessórios;null;vitrines 3 e 4;<i>Les Fils d’Emile Deyrolle</i>, Paris.;Várias medidas;data/texts/instrumentos-descricao/105-aparelho-para-demonstracao-dos-efeitos-da-forca-centrifuga.txt;22
+106;Aparelho para estudo dos choques elásticos;null;vitrine 3;Desconhecido;440x340x270 mm marfim, madeira, metal, fio;data/texts/instrumentos-descricao/106-aparelho-para-estudo-dos-choques-elasticos.txt;22
+107;Aparelho de 's Gravesande;null;vitrine 3;<i>Les Fils d´Emile Deyrolle</i>, Paris, nº 3512 do catálogo.;760x645x195 mm madeira, metal, fio;data/texts/instrumentos-descricao/107-aparelho-de-s-gravesande.txt;22
+108;Picnómetros;null;vitrine 13;Desconhecido;82x36x36 mm vidro;data/texts/instrumentos-descricao/108-picnometros.txt;22
+109;Quadro e pêndulo de Foucault;null;fora das vitrines;<i>Les Fils d’Emile Deyrolle</i>, Paris, nº 3630 do respectivo catálogo.;940x350x350 mm fio, metal;data/texts/instrumentos-descricao/109-quadro-e-pendulo-de-foucault.txt;22
+
+110;Aparelho de Silbermann;null;vitrine 15;<i>Les Fils d’Émile Deyrolle</i>, Paris, nº 5122 do respectivo catálogo.;435x440x240 mm espelhos, vidro, metal;data/texts/instrumentos-descricao/110-aparelho-de-silbermann.txt;23
+111;Espelho convexo-cilíndrico e anamorfoses;null;vitrine 15;<i>Les Fils d´Emile Deyrolle</i>, Paris, nº 5112 e nº5113 do respectivo catálogo.;98x42x42 mm madeira e espelho</br>255x225 mm cartão;data/texts/instrumentos-descricao/111-espelho-convexo-cilindrico-e-anamorfoses.txt;23
+112;Estereoscópio;null;vitrine 15;<i>Les Fils d’Emile Deyrolle</i>, Paris, nº 5361 do respectivo catálogo.;165x180x320 mm lentes, madeira e metal;data/texts/instrumentos-descricao/112-estereoscopio.txt;23
+113;Modelo de luneta astronómica;null;vitrine 15;Max Khol A.G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne, nº 89228 do respectivo catálogo.;223x120x245 mm madeira, metal e vidro;data/texts/instrumentos-descricao/113-modelo-de-luneta-astronomica.txt;23
+114;Modelo de luneta de Galileu;null;vitrine 15;Max Khol A.G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne, nº 89227 do respectivo catálogo.;215x120x160 mm lentes de vidro, madeira e metal;data/texts/instrumentos-descricao/114-modelo-de-luneta-de-galileu.txt;23
+115;Modelo de luneta terrestre;null;vitrine 15;Max Khol A.G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne, nº 89229 do respectivo catálogo.;220x120x420 mm madeira, metal e vidro;data/texts/instrumentos-descricao/115-modelo-de-luneta-terrestre.txt;23
+116;Radiómetro de Crookes;null;vitrine 15;Max Kohl A.G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne, nº 91698 do respectivo catálogo.;315x62x62 mm alumínio, mica e vidro;data/texts/instrumentos-descricao/116-radiometro-de-crookes.txt;23
+117;Sacarímetro de Laurent;null;fora das vitrines;E. Adnet, Paris;500x950x300 mm vidro, quartzo, calcite e metal;data/texts/instrumentos-descricao/117-sacarimetro-de-laurent.txt;23
+118;Suporte com prisma óptico;null;vitrine 15;Desconhecido;88x80x42 mm cristal e madeira;data/texts/instrumentos-descricao/118-suporte-com-prisma-optico.txt;23
+119;Suporte com espelho rotativo;null;vitrine 15;Desconhecido;430x165x175 mm madeira, metal, vidro espelhado;data/texts/instrumentos-descricao/119-suporte-com-espelho-rotativo.txt;23
+120;Suportes com lentes;null;vitrine 15;Desconhecido;385x130x150 mm, 352x142x150 mm, 370x130x150 mm metal, madeira e vidro;data/texts/instrumentos-descricao/120-suportes-com-lentes.txt;23
+121;Suportes com espelhos;null;vitrine 15;Desconhecido;350x140x155 mm, 350x150x150 mm, 395x130x150 mm madeira, metal, vidro espelhado;data/texts/instrumentos-descricao/121-suportes-com-espelhos.txt;23
+122;Teodolito;null;vitrine 15;La Filotecnica;318x305x230 mm metal, vidro, madeira;data/texts/instrumentos-descricao/122-teodolito.txt;23

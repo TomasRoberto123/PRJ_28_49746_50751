@@ -1,0 +1,44 @@
+{
+  "name": "QuestaoQuestionario",
+  "fields": [
+    {
+      "fieldName": "pergunta",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pontuacao",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "instrumento",
+      "otherEntityRelationshipName": "questaoQuestionario",
+      "relationshipName": "instrumento",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "questionario",
+      "otherEntityRelationshipName": "questaoQuestionario",
+      "relationshipName": "questionario"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "opcaoQuestaoQuestionario",
+      "otherEntityRelationshipName": "questaoQuestionario",
+      "relationshipName": "opcaoQuestaoQuestionario"
+    }
+  ],
+  "entityTableName": "questao_questionario",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210516195601"
+}

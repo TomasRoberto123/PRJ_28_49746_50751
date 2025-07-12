@@ -1,0 +1,42 @@
+{
+  "name": "Categoria",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descricao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "imagemPath",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "subTema",
+      "otherEntityRelationshipName": "categoria",
+      "relationshipName": "subTema"
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "questionario",
+      "otherEntityRelationshipName": "categoria",
+      "relationshipName": "questionario",
+      "ownerSide": false
+    }
+  ],
+  "entityTableName": "categoria",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210516195559"
+}

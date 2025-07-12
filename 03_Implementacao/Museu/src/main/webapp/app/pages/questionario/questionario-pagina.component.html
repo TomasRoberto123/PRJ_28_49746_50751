@@ -1,0 +1,133 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="!modulogamificacao">
+  <h1 class="page-heading">Esta página não existe.</h1>
+</div>
+<div
+  class="col-md-10 mx-auto"
+  style="margin-bottom: 32px"
+  *ngIf="!isLoading && questionario.questaoQuestionarios.length === 0 && modulogamificacao"
+>
+  <h1 class="page-heading">Quiz não encontrado</h1>
+  <p>O quiz que tentou visualizar não existe.</p>
+</div>
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="questionario.questaoQuestionarios.length > 0 && modulogamificacao">
+  <h1 id="page-heading" data-cy="QuestionariosHeading">
+    <span> Quiz de {{ questionario?.nome }}</span>
+  </h1>
+</div>
+<div class="col-md-10 mx-auto" *ngIf="!isLoading && questionario.questaoQuestionarios.length > 0 && !entrar && modulogamificacao">
+  <p>Esta página tem como objetivo testar o seu conhecimento sobre a categoria.</p>
+  <p>Serão apresentadas questões sobre cada intrumento da categoria às quais poderá responder.</p>
+  <p>No final serão apresentados os resultados do Quiz e o crachá correspondente à sua prestação.</p>
+  <p *ngIf="!user">Para que o seu resultado fique guardado por favor registe-se e inicie sessão antes de continuar para o Quiz.</p>
+  <p *ngIf="user">O seu resultado será guardado e poderá visualizar o crachá no seu perfil.</p>
+  <button class="button btn float-right align-items-center mr-1" type="button" (click)="entrar = true">
+    <span>Continuar</span>
+    <i class="fa fa-angle-right ml-2"></i>
+  </button>
+</div>
+
+<div class="row m-1 col-md-10 mx-auto" *ngIf="questionario && modulogamificacao && entrar">
+  <small *ngIf="!user"
+    >O seu resultado não será guardado, para guardar o resultado por favor registe-se e inicie sessão antes de responder ao Quiz</small
+  >
+  <div class="col-md-8 card border-bottom-0">
+    <div class="container" *ngIf="!showResult">
+      <div class="d-flex justify-content-center row">
+        <div class="col-md-12 col-lg-12">
+          <div class="">
+            <div class="question bg-white p-3 border-bottom">
+              <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                <h4>Pergunta {{ numQuestao }} / {{ questionario?.questaoQuestionarios?.length }}</h4>
+                <div class="col-md-6">
+                  <ngb-progressbar type="" [value]="(numQuestao / questionario?.questaoQuestionarios?.length) * 100"></ngb-progressbar>
+                </div>
+              </div>
+            </div>
+            <div class="question p-2">
+              <div class="d-flex flex-row align-items-center question-title">
+                <h5 class="mt-1 ml-2">{{ questaoActual?.pergunta }}</h5>
+              </div>
+              <br />
+              <div class="ans ml-2" *ngFor="let opcao of questaoActual?.opcaoQuestaoQuestionarios; let i = index">
+                <label class="custom-control custom-radio custom-control-inline">
+                  <input
+                    class="custom-control-input"
+                    name="selectedType"
+                    [(ngModel)]="selectedType"
+                    [value]="opcao"
+                    type="radio"
+                    (click)="selectOption(opcao)"
+                  />
+                  <span class="custom-control-label">{{ opcao?.opcaoTexto }}</span>
+                </label>
+              </div>
+              <div class="d-flex flex-row justify-content-end align-items-center p-3 bg-white">
+                <button
+                  *ngIf="isLastQuestao()"
+                  [disabled]="!selectedType"
+                  class="btn align-items-center"
+                  type="button"
+                  (click)="submeterQuestonario()"
+                >
+                  Submeter
+                  <fa-icon icon="save"></fa-icon>
+                </button>
+                <button
+                  *ngIf="!isLastQuestao()"
+                  [disabled]="!selectedType"
+                  class="btn align-items-center"
+                  type="button"
+                  (click)="getNextQuestion()"
+                >
+                  Próxima
+                  <i class="fa fa-angle-right ml-2"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 card border-bottom-0" *ngIf="!showResult">
+    <div class="row">
+      <div class="col-md-10 mx-auto text-center my-auto">
+        <img
+          src="{{ basePath }}{{ questaoActual.instrumento?.fotos[0]?.imagemPath }}"
+          style="max-width: 75%; margin-top: 32px"
+          alt="foto image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-2" *ngIf="showResult">
+  <div class="d-flex justify-content-center row">
+    <div class="col-md-12 col-lg-12">
+      <div class="">
+        <div>
+          <p *ngIf="!user">O resultado não foi guardado. Para guardar o resultado responda ao quiz depois de efetuar login.</p>
+          <p *ngIf="user">Parabéns</p>
+          <p>Acertou em {{ respostasCertasTotal }} de {{ questionario.questaoQuestionarios.length }}</p>
+          <p>Percentagem : {{ resultPercentage }}%</p>
+          <div class="card text-center border-0 mx-auto">
+            <img class="card-img-top m-0" [src]="getCracha()" alt="foto image" style="border-radius: 50%" />
+            <div class="text-center p-0"></div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-end align-items-center p-3 bg-white">
+          <button class="btn align-items-center" type="button" (click)="sair()">
+            Sair
+            <fa-icon icon="door-open"></fa-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

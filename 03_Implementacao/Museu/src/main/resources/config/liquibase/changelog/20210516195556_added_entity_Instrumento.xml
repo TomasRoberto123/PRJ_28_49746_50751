@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Instrumento.
+    -->
+    <changeSet id="20210516195556-1" author="museu">
+        <createTable tableName="instrumento">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="nome" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="codigo" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="localizacao" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="fabricante" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="dimensoes" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="descricao_path" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sub_tema_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+        </createTable>
+
+        <loadData
+            file="config/liquibase/data/instrumento.csv"
+            separator=";"
+            tableName="instrumento">
+            <column name="id" type="numeric"/>
+            <column name="nome" type="string"/>
+            <column name="codigo" type="string"/>
+            <column name="localizacao" type="string"/>
+            <column name="fabricante" type="string"/>
+            <column name="dimensoes" type="string"/>
+            <column name="descricao_path" type="string"/>
+            <column name="sub_tema_id" type="numeric"/>
+
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

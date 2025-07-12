@@ -1,0 +1,19 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="!modulogamificacao">
+  <h1 class="page-heading">Esta página não existe.</h1>
+</div>
+<div *ngIf="modulogamificacao">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h1>Ativar Conta</h1>
+
+      <div class="alert alert-success" *ngIf="success">
+        <span><strong>A sua conta foi ativada.</strong> Por favor </span>
+        <a class="alert-link" routerLink="/login">inicie sessão</a>.
+      </div>
+
+      <div class="alert alert-danger" *ngIf="error">
+        <strong>A sua conta não foi ativada</strong> Por favor utilize o formulário de registo para se registar.
+      </div>
+    </div>
+  </div>
+</div>

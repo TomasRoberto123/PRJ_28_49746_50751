@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity Instrumento.
+    -->
+    <changeSet id="20210516195556-2" author="museu">
+
+        <addForeignKeyConstraint baseColumnNames="sub_tema_id"
+                                 baseTableName="instrumento"
+                                 constraintName="fk_instrumento__sub_tema_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="sub_tema"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,28 @@
+id;nome;descricao;categoria_id
+1;Geral;null;1
+2;Barómetros;null;2
+3;Manómetros;null;2
+4;Termómetros;null;2
+5;Máquinas a Vapor;null;2
+6;Geral;null;2
+7;Geral;null;3
+8;Aparelhos de medição;null;4
+9;Bússolas;null;4
+10;Electroquímica;null;4
+11;Electrostática;null;4
+12;Motores e geradores;null;4
+13;Geral;null;4
+14;Aparelhos ou Dispositivos para elevação de água;null;5
+15;Bombas de água;null;5
+16;Geral;null;5
+17;Aparelhos de medição (comprimentos e ângulos);null;6
+18;Balanças;null;6
+19;Dinamómetros;null;6
+20;Máquinas Simples;null;6
+21;Torniquetes;null;6
+22;Geral;null;6
+23;Geral;null;7
+
+
+
+

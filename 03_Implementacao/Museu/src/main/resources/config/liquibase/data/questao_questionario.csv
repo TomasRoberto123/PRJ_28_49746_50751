@@ -1,0 +1,139 @@
+id;pergunta;pontuacao;instrumento_id;questionario_id
+1;Em qual dos seguintes meios é que as vibrações acústicas não se propagam?;null;1;1
+2;Em que categoria se incluem os Diapasões com caixas de ressonância?;null;2;1
+
+3;O Barómetro de Adie permite medir a pressão: ;null;3;2
+4;O Barómetro grande permite medir a pressão: ;null;4;2
+5;O Barómetro metálico aneroide permite medir a pressão;null;5;2
+
+6;O Tubo de Bourdon permite medir a pressão:;null;6;2
+
+7;O que permite determinar este aparelho?;null;7;2
+8;A que classe de aparelhos pertence o Pirómetro de Wedgwood? ;null;8;2
+9;O que permite determinar o Termómetro diferencial de Leslie?;null;9;2
+10;O que permite determinar o Termómetro de máxima e mínima?:;null;10;2
+11;Que tipo de escala de temperatura são as referidas no Termómetro com 3 escalas:;null;11;2
+
+12;Numa máquina a vapor de cilindro vertical a energia térmica é convertida em:;null;12;2
+13;Numa máquina a vapor marítima de 2 cilindros a energia térmica é convertida em:;null;13;2
+14;O Modelo de uma locomotiva a vapor permite ilustrar a conversão de energia térmica em:;null;14;2
+15;O Modelo de pás articuladas permite ilustrar mecanismo de propoulsão em meio:;null;15;2
+
+16;O Anel de 's Gravesande é utilizdo para ilustrar a dilatação dos materiais sob o efeito:;null;16;2
+17;O Aparelho de Despretz permite estudar, para um dado material, a sua condutibilidade;null;17;2
+18;O Aparelho de Hope é utilizado para demonstrar o comportamento anómalo, com respeito à dilatação, de que fluido?;null;18;2
+19;O Aparelho de Ingenhousz permite comparar a condutividade térmica de diferentes materiais sólidos, com recurso a que substância?;null;19;2
+20;Quem, pela primeira vez, enunciou o princípio da parede fria?;null;20;2
+21;O Baroscópio permite provar que princípio físico se aplica também aos gases?;null;21;2
+22;O que permite obter o Eolípilo de dardo horizontal?;null;22;2
+23;Os Hemisférios de Magdeburgo servem para demonstrar:;null;23;2
+24;O que permite medir o Higrómetro de Saussurre?;null;24;2
+25;Quem inventou a Máquina Pneumática?;null;25;2
+26;O Pirómetro de quadrante permite observar e comparar a dilatação em que tipo de materiais?;null;26;2
+
+27;Qual dos seguintes líquidos não molha o vidro?;null;27;3
+28;O Aparelho de Guy-Lussac é utilizado para ilustrar fenómenos de:;null;28;3
+29;O Aparelho de Hauksbée é utilizado para ilustrar fenómenos de:;null;29;3
+
+30;Qual é a função de um amperímetro?;null;30;4
+31;O que mede uma Bússola tangencial? ;null;31;4
+32;A que classe de aparelhos pertence o Electrodinamómetro? ;null;32;4
+33;Qual é a descoberta ou invenção em que se baseia o funcionamento de um galvanómetro?;null;33;4
+
+34;Uma bússola de inclinação e declinação mede: ;null;35;4
+35;Numa bússola de orientação portátil, o pólo norte da bússola aponta para;null;36;4
+
+36;Uma pilha de Grenet é?;null;37;4
+37;Numa pilha de Volta é produzida energia eléctrica a partir de uma reacção:;null;38;4
+38;Um voltâmetro é utilizado para: ;null;39;4
+
+39;No aparelho para dança de bolas de sabugueiro, o movimento das bolas resulta da existência de;null;40;4
+40;O funcionamento da Balança de torsão de Coulomb ilustra a existência de:;null;41;4
+41;O electroscópio de folhas ilustra:;null;42;4
+42;A garrafa de Leiden é o antecessor:;null;43;4
+43;O ovo eléctrico permite;null;44;4
+44;O movimento do pêndulo eléctrico de bola de sabugueiro é explicado pela:;null;45;4
+
+46;Num tubo de Geissler, luz é emitida por:;null;47;4
+
+47;Numa máquina magneto-eléctrica, trabalho mecânico é convertido em:;null;49;4
+48;Num motor eléctrico, há transformação de energia eléctrica em:;null;50;4
+
+50;Na Roda de Barlow, o movimento de rotação é provocado pela interacção entre:;null;52;4
+
+51;As linhas de força do campo magnética podem ser visualizadas com:;null;53;4
+52;Qual dos seguintes aparelhos tem como princípio de funcionamento a Lei da indução magnética de Faraday?;null;54;4
+53;A Bobina dupla de Faraday ilusta o fenómeno de:;null;55;4
+54;O Electroscópio meteorológico de Peltier permite medir:;null;56;4
+55;O Excitador eléctrico destina-se a:;null;48;4
+56;A Mesa de Ampère permite estudar a interacção entre:;null;57;4
+57;A Pilha termo-eléctrica demonstra o:;null;58;4
+58;O Reóstato é:;null;59;4
+59;O Shunt é:;null;60;4
+
+61;Na Nora a elevação de água é obtida através da conversão de:;null;62;5
+62;O Parafuso de Arquimedes serve para:;null;63;5
+63;A Bomba aspirante serve para:;null;64;5
+64;A Bomba de incêndios permite obter um jacto de água:;null;65;5
+65;O Aparelho de Haldat serve para demonstrar:;null;66;5
+66;O Aparelho de Pascal permite demonstrar que a força exercida por um fluído na base de um vaso, só depende da:;null;67;5
+67;O Aparelho de Pascal - Prensa hidráulica, foi construído por?;null;68;5
+68;O Aparelho de Sire serve para demonstrar que a pressão exercida por um líquido em equilíbrio é a mesma em todos os pontos dum mesmo plano:;null;69;5
+69;O Carneiro hidraulico permite:;null;70;5
+70;A Esfera de Pascal serve para demonstrar que a pressão de um líquido, em repouso, se exerce:;null;71;5
+71;O que provoca o repuxo da água na Fonte de Héron?;null;72;5
+72;Como manter um repuxo contínuo de água na Fonte dupla de Héron?;null;73;5
+73;O Funil mágico baseia o seu funcionamento no efeito da pressão:;null;74;5
+74;O Sistema de vasos comunicantes permite verificar as condições de:;null;75;5
+75;O Vaso de Mariotte permite manter o escoamento de um líquido:;null;76;5
+76;O Vaso de Tântalo permite obter um escoamento de um líquido:;null;77;5
+
+77;A Craveira permite medir comprimentos na ordem das décimas do:;null;78;6
+78;A Cunha micrométrica permite medir:;null;79;6
+79;O Goniómetro de aplicação mede:;null;80;6
+80;O Esferómetro permite medir:;null;81;6
+81;O Nónio curvilíneo mede:;null;82;6
+82;Uma medida efectuada com o Palmer pode exprimir-se na unidade:;null;83;6
+83;O Planímetro de Amsler destina-se a medir:;null;84;6
+84;A medida na Balança de cereais é obtida por um equilíbrio entre:;null;85;6
+85;A medição na Balança comum exige o equilíbrio entre:;null;86;6
+86;A Balança hidrostática permite demonstrar o:;null;87;6
+87;A Balança de Mohr-Westphal é usada para determinar:;null;88;6
+88;A Balança de precisão recorre à comparação da massa a determinar com:;null;89;6
+89;Esta Balança romana permite determinar massas até aos:;null;90;6
+90;O Pesa cartas é:;null;91;6
+91;Que tipo de aparelho permite determinar a intensidade de uma força?;null;92;6
+92;O Dinamómetro de Poncelet permite medir:;null;93;6
+93;A que classe de aparelhos pertence o Cabrestante?;null;94;6
+94;A que classe de aparelhos pertence a Cegonha?;null;95;6
+95;A que classe de aparelhos pertence o Molinete?;null;96;6
+96;A que classe de aparelhos pertence o Plano inclinado e disco?;null;97;6
+97;As Rodas cónicas de transmissão de movimento destinam-se a:;null;98;6
+98;A que classe de aparelhos pertencem as Roldanas?;null;99;6
+99;O Sarilho permite elevar um corpo através da transformação de:;null;100;6
+100;O princípio de funcionamento do Sarilho Diferencial baseia-se:;null;101;6
+
+101;No Torniquete de gás ocorre a transformação do movimento de:;null;102;6
+102;No Torniquete hidráulico ocorre uma transformação de:;null;103;6
+103;No Torniquete de reacção a vapor ocorre uma transformação de:;null;104;6
+
+105;No Aparelho para estudo de choques elásticos existe conservação:;null;106;6
+106;O Aparelho de ‘s Gravesande permite conhecer as condições de equilíbrio de um corpo rígido submetido a:;null;107;6
+107;Com os Picnómetros é possível medir:;null;108;6
+108;O Pêndulo de Foucault permite provar:;null;109;6
+
+109;O Aparelho de Sieberman permite estudar:;null;110;7
+110;O Espelho convexo-cilíndrico e anamorfoses permitem obter:;null;111;7
+111;O Estereoscópio é um aparelho que permite:;null;112;7
+112;A luneta astronómica é constituída por duas lentes, uma objectiva e uma ocular, sendo ;null;113;7
+113;A luneta de Galileu é constituída por duas lentes, uma objectiva e uma ocular, sendo ;null;114;7
+114;A imagem obtida com uma luneta terrestre é:;null;115;7
+115;Em que aparelho um movimento de rotação é gerado por efeito da luz?;null;116;7
+116;O Sacarímetro de Laurent é utilizado para estudar os:;null;117;7
+117;Quando a luz atravessa um prisma óptico sofre:;null;118;7
+
+119;Numa lente, as superfícies que limitam o meio transparente são:;null;120;7
+120;Para qual dos espelhos um feixe luminoso incidente de raios paralelos dá origem a um feixe reflectido de raios divergentes?;null;121;7
+121;O Teodolito permite determinar:;null;122;7
+
+

@@ -1,0 +1,36 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px">
+  <h1 id="page-heading" data-cy="CategoriaHeading">
+    <span>Glossário</span>
+  </h1>
+</div>
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+<div class="col-md-10 container mx-auto">
+  <div class="col-md-10 mx-auto text-center">
+    <div class="btn-group" role="group" aria-label="Basic example" *ngFor="let letra of letras; let index = index">
+      <button
+        type="button"
+        id="{{ index }}"
+        class="btn btn-outline-secondary m-1 border-0"
+        [class.active]="index === selected"
+        (click)="filter(letra)"
+        [disabled]="disableLetra(letra)"
+        style="font-size: 14px"
+      >
+        {{ letra }}
+      </button>
+    </div>
+  </div>
+</div>
+<br />
+<div class="col-md-10 mx-auto">
+  <div class="card" *ngIf="filtrados.length > 0">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item btn text-left" *ngFor="let instrumento of filtrados" (click)="goToInstrumento(instrumento.id)">
+        <span>{{ instrumento.nome }}</span>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,3 @@
+<p>O <b>aparelho de Gay-Lussac</b>, fig. 234, é constituído por uma tina de vidro onde mergulham vários tubos capilares verticais, de diferentes diâmetros internos, que se encontram suportados por uma barra metálica horizontal.</p>
+<p>É utilizado para verificar a lei da ascensão nos tubos capilares dos líquidos que molham os sólidos com eles em contacto:<i> a altura a que se elevam estes líquidos em tubos capilares de diferentes diâmetros internos varia na razão inversa do diâmetro do tubo.</i></p>
+<p>(baseado no catálogo <i>Les Fils d´Emile Deyrolle</i>, Paris).</p>

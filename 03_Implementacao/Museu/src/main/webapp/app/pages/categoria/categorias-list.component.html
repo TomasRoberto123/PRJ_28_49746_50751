@@ -1,0 +1,27 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px">
+  <h1 id="page-heading" data-cy="CategoriaHeading">
+    <span>Instrumentos</span>
+  </h1>
+</div>
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+<div class="alert alert-warning col-md-12" id="no-result" *ngIf="categorias?.length === 0">
+  <span>No categorias found</span>
+</div>
+<div class="col-md-10 p-0 mx-auto mb-4">
+
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let categoria of categorias" (click)="goToSubtemas(categoria.id)">
+
+      <div class="card h-100 text-center" style="cursor: pointer">
+        <img class="card-img-top img-fluid m-0" src="{{ basePath }}{{ categoria.imagemPath }}" alt="foto image" />
+        <div class="card-header">
+          <h5 class="card-title">{{ categoria.nome }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

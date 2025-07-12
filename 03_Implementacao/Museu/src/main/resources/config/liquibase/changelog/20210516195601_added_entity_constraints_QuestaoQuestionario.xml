@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity QuestaoQuestionario.
+    -->
+    <changeSet id="20210516195601-2" author="museu">
+
+        <addForeignKeyConstraint baseColumnNames="instrumento_id"
+                                 baseTableName="questao_questionario"
+                                 constraintName="fk_questao_questionario__instrumento_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="instrumento"/>
+
+        <addForeignKeyConstraint baseColumnNames="questionario_id"
+                                 baseTableName="questao_questionario"
+                                 constraintName="fk_questao_questionario__questionario_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="questionario"/>
+    </changeSet>
+</databaseChangeLog>

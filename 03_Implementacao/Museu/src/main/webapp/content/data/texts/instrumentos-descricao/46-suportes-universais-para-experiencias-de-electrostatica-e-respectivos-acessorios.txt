@@ -1,0 +1,4 @@
+<p>Estes aparelhos destinam-se a demonstrar fenómenos electrostáticos. No Museu de Física existem os seguintes acessórios:</p>
+<p><i><b>Electrómetro de quadrante</b></i></br>370x110x110 mm metal,vidro</p>
+<p><i><b>carrilhão eléctrico</b></i></br>120x190x190 mm metal,vidro, fio</br>160x110x110 mm metal, vidro</p>
+<p><i><b>haste metálica terminando em ponta</b></i></br>240x150x150 mm metal, vidro</p>

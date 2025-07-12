@@ -1,0 +1,139 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="!modulogamificacao">
+  <h1 class="page-heading">Esta página não existe.</h1>
+</div>
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+<div class="col-md-10 mx-auto" *ngIf="modulogamificacao">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 *ngIf="account">Perfil</h1>
+
+      <div class="alert alert-success" *ngIf="success">
+        <strong>Informações guardadas</strong>
+      </div>
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <form name="form" role="form" (ngSubmit)="save()" [formGroup]="settingsForm" *ngIf="account" novalidate>
+        <fieldset [disabled]="!edit">
+          <div class="form-group">
+            <label class="form-control-label" for="firstName">Primeiro nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="firstName"
+              name="firstName"
+              placeholder="O seu Primeiro Nome"
+              formControlName="firstName"
+              data-cy="firstname"
+            />
+
+            <div
+              *ngIf="
+                settingsForm.get('firstName')!.invalid && (settingsForm.get('firstName')!.dirty || settingsForm.get('firstName')!.touched)
+              "
+            >
+              <small class="form-text text-danger" *ngIf="settingsForm.get('firstName')?.errors?.required">
+                Tem que introduzir o seu primeiro nome.
+              </small>
+
+              <small class="form-text text-danger" *ngIf="settingsForm.get('firstName')?.errors?.minlength">
+                O seu primeiro nome tem que ter pelo menos 1 caracter.
+              </small>
+
+              <small class="form-text text-danger" *ngIf="settingsForm.get('firstName')?.errors?.maxlength">
+                O seu primeiro nome não pode ter mais que 50 caracteres.
+              </small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="lastName">Apelido</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastName"
+              name="lastName"
+              placeholder="O seu Apelido"
+              formControlName="lastName"
+              data-cy="lastname"
+            />
+
+            <div
+              *ngIf="
+                settingsForm.get('lastName')!.invalid && (settingsForm.get('lastName')!.dirty || settingsForm.get('lastName')!.touched)
+              "
+            >
+              <small class="form-text text-danger" *ngIf="settingsForm.get('lastName')?.errors?.required">
+                Tem que introduzir o seu apelido.
+              </small>
+
+              <small class="form-text text-danger" *ngIf="settingsForm.get('lastName')?.errors?.minlength">
+                O seu apelido tem que ter pelo menos 1 caracter.
+              </small>
+
+              <small class="form-text text-danger" *ngIf="settingsForm.get('lastName')?.errors?.maxlength">
+                O seu apelido não pode ter mais que 50 caracteres.
+              </small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="O seu email"
+              formControlName="email"
+              data-cy="email"
+            />
+
+            <div *ngIf="settingsForm.get('email')!.invalid && (settingsForm.get('email')!.dirty || settingsForm.get('email')!.touched)">
+              <small class="form-text text-danger" *ngIf="settingsForm.get('email')?.errors?.required">
+                Tem que introduzir o seu email.
+              </small>
+
+              <small class="form-text text-danger" *ngIf="settingsForm.get('email')?.errors?.email"> O seu email é inválido.</small>
+
+              <small class="form-text text-danger" *ngIf="settingsForm.get('email')?.errors?.minlength">
+                O seu email tem que ter pelo menos 5 caracteres.
+              </small>
+
+              <small class="form-text text-danger" *ngIf="settingsForm.get('email')?.errors?.maxlength">
+                O seu email não pode ter mais de 100 caracteres.
+              </small>
+            </div>
+          </div>
+        </fieldset>
+        <button *ngIf="!edit" type="submit" class="btn pl-0" (click)="edit = true">
+          Editar
+          <i class="fas fa-edit"></i>
+        </button>
+        <button *ngIf="edit" type="submit" [disabled]="settingsForm.invalid" class="btn pl-0" data-cy="submit">Guardar
+          <i class="fas fa-save"></i>
+        </button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <h2>Conquistas</h2>
+      <div *ngIf="!respostasQuestionarios">Ainda não possui crachás.</div>
+      <div *ngIf="respostasQuestionarios">
+        <div class="col-md-3 float-left" *ngFor="let resposta of respostasQuestionarios" style="margin-bottom: 32px">
+          <div class="card h-100 text-center border-0">
+            <img class="card-img-top img-fluid m-0" [src]="getCracha(resposta)" alt="foto image" style="border-radius: 50%" />
+            <div class="text-center p-0">
+              <h5 style="min-height: 10vh !important; font-size: 16px">
+                {{ resposta.questionario.nome }} <br />
+                <b>{{ resposta.pontuacao }}%</b>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

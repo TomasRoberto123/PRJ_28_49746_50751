@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95 47" width="95" height="47">
+	<title>Untitled</title>
+	<defs>
+		<image  width="95" height="47" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAAAvCAMAAACysOYGAAAAAXNSR0IB2cksfwAAAVNQTFRF/////v7+/f39+vr6+/v7/Pz8ioqKJCQkAAAASEhI6urqwcHBMTEx7e3t3NzcEBAQi4uLR0dHl5eX2traTExM6enp7OzsSUlJ19fX6+vr0tLS1NTU3d3denp6AwMDW1tbAQEBjY2NpaWlBQUFpqamqampiYmJMzMzaGhoRkZGuLi4+fn5Z2dnIyMj8PDwKCgo0NDQq6urampqWlpa9/f3NjY2a2tr7u7uwMDAfHx8+Pj4NDQ0p6enhYWFdnZ2JSUlm5ubMjIyS0tLaWlpiIiIeHh45ubmmZmZxMTEAgICBAQEFhYWlZWVtLS0z8/PNzc3EhIS09PTw8PDERERExMTWVlZzs7OOTk5VFRUsLCweXl5ICAg3t7eVlZWwsLC0dHRxsbGBgYGvr6+FBQUmpqa4ODgZmZmqqqqHR0dhoaGfX19WFhYODg4v7+/qKioISEhjIyMP99aHwAAA5NJREFUeJztV1tbEzEQnclmSkARC1IoAi5UilhBBEVEFLFFaVVEUFQEvKN4//9PzkxSaKG+7b4ZPmA32Zw5MzlztgVIeKABg5g0aosoqSFHltIC58HYmTbX3pFaAHPqdOeZrrOp4aPkkO1OC56A1dNzrjctfLBgc339icMiEIKo0kA+OwBpdAARWLQA2fPRYCZ59KHhoc4L8QiMOldwyevn4lhx/FJ+4nJJqmSSrw/BlckpBPWeFBqYYa92W4E3zD9KPgD0u2k1NpVR4v6GeK2Lte/pN8iT9I7T4pR4yUgDGk2TpFcIZO4oXQRfYXWBpjqbmVlsTZvCftmjgU1IMOIpqwtGXhvmCJMZyQLr/RAerGlZF36Q+RIvlPwqxyDeTKwxy9P8i74vpbS8Btf1jp/DBv4UohwfjDR6w7m5m7w2X3DOdd0iv10rJFdWb6yqAgHqwaBYPA640EKZmLndA4vujmy9uwQw7+6VlGgJof5DvoARBH8kvWD8BrjoH9UXlhEs3+ezN+1lLkVbhYOSz5b/l+qHyrVCrTeJHtDzPxKKJtqyb0UvbStSgeExgAeFh0rLrladq8auFhdWS8oCc3OP3ESdM5lMxlADPNpWrmmUw+OlHF8/cYO49nS5A1QsIhkVDqmKDObWh3qfxasS4CR/9GfTIgLb6sbmmkRaYbrPK3kT+Ci+Vy/JCc+8wOlym7/NSm4xZ9hOATSOY+dq7nCEHpEMt9p7RJzm5Svccq+ZnKCS1If31FxhNVKevGl8u5NEyEqgUgGfou8QmbNNzCP/Z+BNDmgWYMeNIfTtwqF/6PlGKhe+mB/ekzk9esNwUn8tlNU+4yntxTB8G4r4esffgnmXRai8/wBY+cjPR9SkT/7MxA/n3Sf6vP9FwlllXCyqkWC9b02TQOUE9WJFuop1sRG7AsCA29051l9RyGh0vfZ1xDuGOlUmIxmq7sWmFkRTjcJZ8E6HJiQT6scE5bm6P0SGgiTRe6GKVyIeHHjeNvgQZ2mb+EtI79ckt4pC4KM2+ptWPaCgOhZQ/ZTkAEwJThhQ4O4VHC6isMPLIvizf99hqIk5MuWw108G0246gGTfwWJ+wWghhS8A5KuU3193fdToSwkNr5Hc5rfcdHXepPH1gg8sKn/HtZnJdD6fCKiruh/bHSaFACLB6KfbUxWVEof3jTMVd9NgeREb3vtJDf3gY39tDv/+Y1P4ePV//B9pjL8gpDlfSJJWGQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

@@ -1,0 +1,467 @@
+id;opcao_texto;correcta;questao_questionario_id
+
+1;Vácuo;true;1
+2;Ar;false;1
+3;Água;false;1
+
+4;Acústica;true;2
+5;Capilaridade;false;2
+6;Óptica;false;2
+
+7;Atmosférica;true;3
+8;De vácuo;false;3
+9;Relativa;false;3
+
+10;Atmosférica;true;4
+11;De vácuo;false;4
+12;Relativa;false;4
+
+13;Atmosférica;true;5
+14;De vácuo;false;5
+15;Relativa;false;5
+
+16;Relativa;true;6
+17;Atmosférica;false;6
+18;Absoluta;false;6
+
+19;As temperaturas do ponto gelo e do ponto de ebulição da água;true;7
+20;As temperaturas do ponto gelo e do ponto de ebulição do mercúrio;false;7
+21;As temperaturas do ponto gelo e do ponto de ebulição do álcool;false;7
+
+22;Termómetros;true;8
+23;Maquinas a Vapor;false;8
+24;Bomba de Água;false;8
+
+25;Pequenas diferenças de temperatura;true;9
+26;Grandes diferenças de temperatura;false;9
+27;Pequenas diferenças de pressão;false;9
+
+28;A temperatura máxima e mínima;true;10
+29;A altura máxima e mínima;false;10
+30;A pressão máxima e mínima;false;10
+
+31;Relativa;true;11
+32;Absoluta;false;11
+33;Um ponto fixo;false;11
+
+34;Energia cinética;true;12
+35;Energia eléctrica;false;12
+36;Energia magnética;false;12
+
+37;Energia cinética;true;13
+38;Energia eléctrica;false;13
+39;Energia luminosa;false;13
+
+40;Energia cinética;true;14
+41;Energia eléctrica;false;14
+42;Energia quimica;false;14
+
+43;Aquático;true;15
+44;Atmosferico;false;15
+45;Vazio;false;15
+
+46;Térmico;true;16
+47;Elétrico;false;16
+48;Magnético;false;16
+
+49;Térmica;true;17
+50;Elétrica;true;17
+51;Outra;true;17
+
+52;Água;true;18
+53;Mercúrio líquido;false;18
+54;Álcool;false;18
+
+55;Cera;true;19
+56;Mercúrio líquido;false;19
+57;Álcool;false;19
+
+58;Watt;true;20
+59;Kelvin;false;20
+60;Newton;false;20
+
+61;Princípio de Arquimedes - Impulsão;true;21
+62;Primeiro Princípio da Termodinâmica;false;21
+63;Segunda Lei de Newton;false;21
+
+64;Chama;true;22
+65;Flecha;false;22
+66;Lanca;false;22
+
+67;O efeito da pressão é sentido em todas as direcções;true;23
+68;O efeito da pressão é sentido em algumas as direcções;false;23
+69;O efeito da pressão só é sentido na horizontal;false;23
+
+70;Humidade do ar;true;24
+71;Temperatura do ar;true;24
+72;Pressão atmosférica;true;24
+
+73;Otto Gueric;true;25
+74;Nicolaus A. Otto;false;25
+75;Otto Lilienthal;false;25
+
+76;Sólidos;true;26
+77;Líquidos;false;26
+78;Gases;false;26
+
+79;Mercúrio;true;27
+80;Água;false;27
+81;Álcool;false;27
+
+82;Capilaridade;true;28
+83;Acústica;false;28
+84;Óptica;false;28
+
+85;Capilaridade;true;29
+86;Acústica;false;29
+87;Óptica;false;29
+
+88;Medir a intensidade de corrente eléctrica;true;30
+89;Demonstrar a lei de Ampère;false;30
+90;Medir a diferença de potencial entre dois pontos;false;30
+
+91;Intensidade da corrente eléctrica;true;31
+92;Declinação magnética;false;31
+93;Temperatura;false;31
+
+94;Aparelhos de medição;true;32
+95;Motores e Geradores;false;32
+96;Máquinas a Vapor;false;32
+
+97;Experiência de Øersted;true;33
+98;Pilha de Volta;false;33
+99;Lei de Faraday;false;33
+
+100;A inclinação e declinação do campo magnético terrestre;true;34
+101;A latitude e a longitude;false;34
+102;A inclinação e declinação de uma montanha;false;34
+
+103;O pólo sul magnético da Terra;true;35
+104;O pólo norte magnético da Terra;false;35
+105;O pólo sul geográfico da Terra;false;35
+
+106;Uma célula voltaica ou bateria;true;36
+107;Uma lanterna;false;36
+108;Um empilhamento de discos cerâmicos;false;36
+
+112;de oxidação-redução;true;37
+113;nuclear;false;37
+114;de combustão;false;37
+
+115;Realizar a electrólise da água ou de outras substâncias;true;38
+116;Medir diferenças de potencial elevadas;false;38
+117;Produzir energia eléctrica;false;38
+
+118;Forças electrostáticas;true;39
+119;Forças magnéticas;false;39
+120;Forças elásticas;false;39
+
+121;Forças eléctricas;true;40
+122;Campos magnéticos;false;40
+123;Reacções químicas;false;40
+
+124;a repulsão entre cargas eléctricas do mesmo sinal;true;41
+125;a atracção entre cargas eléctricas do mesmo sinal;false;41
+126;a atracção entre cargas eléctricas de sinal oposto;false;41
+
+127;do condensador;true;42
+128;da bateria;false;42
+129;do díodo;false;42
+
+130;Observar descargas eléctricas ;true;43
+131;Cozer um ovo;false;43
+132;Armazenar energia eléctrica;false;43
+
+133;Lei de Coulomb;true;44
+134;Lei de Faraday;false;44
+135;Lei de Ohm;false;44
+
+136;Um gás ionizado;true;46
+137;Um filamento de tungsténio;false;46
+138;Um combustível líquido;false;46
+
+139;Energia eléctrica;true;47
+140;Energia potencial gravítica;false;47
+141;Energia potencial elástica;false;47
+
+142;Energia cinética de rotação;true;48
+143;Energia potencial elástica;false;48
+144;Energia química;false;48
+
+145;Uma corrente eléctrica e um campo magnético;true;50
+146;Cargas eléctricas;false;50
+147;Electroímanes;false;50
+
+148;Limalha de ferro;true;51
+149;Limalha de alumínio;false;51
+150;Alpista;false;51
+
+151;Bobina de Ruhmkorff;true;52
+152;Pilha de Volta;false;52
+153;Motor eléctrico;false;52
+
+154;Indução magnética;true;53
+155;Repulsão electrostática;false;53
+156;Atracção gravítica;false;53
+
+157;A carga eléctrica atmosférica;true;54
+158;A temperatura do ar;false;54
+159;A pressão atmosférica;false;54
+
+160;Descarregar as garrafas de Leiden;true;55
+161;Gerar energia eléctrica;false;55
+162;Medir a corrente eléctrica;false;55
+
+163;Correntes eléctricas;true;56
+164;Cargas eléctricas;false;56
+165;Ímanes;false;56
+
+166;Efeito de Seebeck;true;57
+167;Efeito de Peltier;false;57
+168;Efeito de Joule;false;57
+
+169;Uma resistência eléctrica variável;true;58
+170;Uma fonte de corrente;false;58
+171;Uma fonte de tensão;false;58
+
+172;Um curto-circuito;true;59
+173;Um voltímetro;false;59
+174;Um amperímetro;false;59
+
+175;Energia cinética em energia potencial gravítica;true;61
+176;Energia potencial gravítica em energia cinética;false;61
+177;Energia eléctrica em energia química;false;61
+
+178;Elevar água;true;62
+179;Apertar duas peças;false;62
+180;Comprimir um fluído;false;62
+
+181;Retirar água de um poço;true;63
+182;Aquecer água;false;63
+183;Regar;false;63
+
+184;Contínuo;true;64
+185;Intermitente;false;64
+186;Vaporizada;false;64
+
+187;Princípio da Igualdade de pressão;true;65
+188;Princípio de Arquimedes - Impulsão;false;65
+189;Primeiro Princípio da Termodinâmica;false;65
+
+190;Altura da coluna do fluído;true;66
+191;Forma do vaso;false;66
+192;Cor do vaso;false;66
+
+193;Bramah;true;67
+194;Pascal;false;67
+195;Newton;false;67
+
+196;Horizontal;true;68
+197;Vertical;false;68
+198;Obliquo;false;68
+
+199;Elevar água;true;69
+200;Aquecer água;false;69
+201;Congelar água;false;69
+
+202;Em todas as direcções;true;70
+203;Na direcção horizontal;false;70
+204;Na direcção vertical;false;70
+
+205;Pressão hidrostática;true;71
+206;Expansão térmica;false;71
+207;Capilaridade;false;71
+
+208;Rodando periodicamente os reservatórios;true;72
+209;Não é necessária qualquer acção ;false;72
+210;Aquecendo a água na bacia;false;72
+
+211;Atmosférica;true;73
+212;Relativa;false;73
+213;Vácuo absoluto;false;73
+
+214;Equilíbrio de um líquido;true;74
+215;Temperatura de um líquido;false;74
+216;Cor de um líquido;false;74
+
+217;A velocidade constante;true;75
+218;A velocidade crescente;false;75
+219;Nenhuma das anteriores;false;75
+
+220;Intermitente;true;76
+221;Contínuo;false;76
+222;Nenhuma das anteriores;false;76
+
+223;milímetro;true;77
+224;metro;false;77
+225;decímetro;false;77
+
+226;Diâmetro interno de tubos ;true;78
+227;Ângulo;false;78
+228;Espessura;false;78
+
+229;Ângulos diédricos;true;79
+230;Esfericidade;false;79
+231;Tempo;false;79
+
+232;Espessura;true;80
+233;Massa;false;80
+234;Tempo;false;80
+
+235;Ângulo;true;81
+236;Comprimento;false;81
+237;Temperatura;false;81
+
+238;milímetro;true;82
+239;volt;false;82
+240;ohm;false;82
+
+241;Áreas;true;83
+242;Volumes;false;83
+243;Comprimentos;false;83
+
+244;Momentos de forças;true;84
+245;Forças elásticas;false;84
+246;Forças magnéticas;false;84
+
+247;Duas forças gravíticas;true;85
+248;Uma força gravítica e uma força elástica;false;85
+249;Uma força gravítica e uma força eléctrica;false;85
+
+250;Princípio de Arquimedes;true;86
+251;Princípio de Pascal;false;86
+252;Princípio de Bernoulli;false;86
+
+253;A densidade de um líquido;true;87
+254;A massa de um sólido;false;87
+255;A densidade de um sólido;false;87
+
+256;Massas aferidas;true;88
+257;Cargas eléctricas conhecidas;false;88
+258;Massas não aferidas;false;88
+
+259;101 kg;true;89
+260;500 kg;false;89
+261;1000 kg;false;89
+
+262;Uma balança;true;90
+263;Um dinamómetro;false;90
+264;Um termómetro;false;90
+
+265;Dinamómetro de mola em hélice;true;91
+266;Esferómetro;false;91
+267;Barómetro;false;91
+
+268;Forças;true;92
+269;Velocidades;false;92
+270;Campos magéticos;false;92
+
+271;Máquinas Simples;true;93
+272;Torniquetes;false;93
+273;Barómetros;false;93
+
+274;Máquinas Simples;true;94
+275;Bússolas;false;94
+276;Balanças;false;94
+
+277;Máquinas Simples;true;95
+278;Motores eléctricos;false;95
+279;Máquinas a vapor;false;95
+
+280;Máquinas Simples;true;96
+281;Aparelhos de medição;false;96
+282;Máquinas a vapor;false;96
+
+283;Alterar a direcção do movimento;true;97
+284;Triturar cereais;false;97
+285;Elevar água;false;97
+
+286;Máquinas Simples;true;98
+287;Motores eléctricos;false;98
+288;Torniquetes;false;98
+
+289;Energia cinética em energia potencial gravítica;true;99
+290;Energia potencial gravítica em energia cinética;false;99
+291;Energia térmica em energia potencial gravítica;false;99
+
+292;Na diferença de raio de dois veios;true;100
+293;Na diferença de comprimento de dois veios;false;100
+294;Na diferença de altura de dois veios;false;100
+
+295;Translacção em movimento de rotação;true;101
+296;Rotação em movimento de translacção;false;101
+297;Translacção em movimento oscilatório;false;101
+
+298;Energia potencial gravítica em energia cinética de rotação;true;102
+299;Energia térmica em energia cinética de rotação;false;102
+300;Energia química em energia cinética de rotação;false;102
+
+301;Energia térmica em energia cinética de rotação;true;103
+302;Energia térmica em energia eléctrica;false;103
+303;Energia térmica em energia potencial gravítica;false;103
+
+
+
+307;Do momento linear;true;105
+308;Da energia cinética;false;105
+309;Da energia potencial gravítica;false;105
+
+310;Forças verticais;true;106
+311;Forças horizontais;false;106
+312;Forças oblíquas;false;106
+
+313;Densidade relativa;true;107
+314;Massa;false;107
+315;Temperatura;false;107
+
+316;O movimento de rotação da Terra;true;108
+317;O movimento de translação da Terra;false;108
+318;A existência do campo magnético terrestre;false;108
+
+319;As leis da refracção;true;109
+320;A segunda lei de Newton;false;109
+321;A lei de Faraday;false;109
+
+322;Imagens não deformadas;true;110
+323;Imagens deformadas;false;110
+324;Imagens tridimensionais;false;110
+
+325;Visualizar uma imagem tridimesnsional;true;111
+326;Ouvir o batimento cardíaco;false;111
+327;Ouvir um som estereofónico;false;111
+
+328;Ambas convergentes;true;112
+329;A objectiva convergente e a ocular divergente;false;112
+330;A objectiva divergente e a ocular convergente;false;112
+
+331;A objectiva convergente e a ocular divergente;true;113
+332;Ambas convergentes;false;113
+333;A objectiva divergente e a ocular convergente;false;113
+
+334;Direita;true;114
+335;Invertida;false;114
+336;Rodada de 90°;false;114
+
+337;Radiómetro de Crookes;true;115
+338;Teodolito;false;115
+339;Ovo eléctrico;false;115
+
+340;Açucares;true;116
+341;Sais;false;116
+342;Metais;false;116
+
+343;Duas refracções e duas reflexões;true;117
+344;Duas refracções e nenhuma reflexão;false;117
+345;Duas reflexões e nenhuma refracção;false;117
+
+346;Planas, convexas ou côncavas;true;119
+347;Sempre planas;false;119
+348;Côncavas ou convexas;false;119
+
+349;Convexo;true;120
+350;Côncavo;false;120
+351;Plano;false;120
+
+352;Ângulos verticais e horizontais;true;121
+353;Pressão atmosférica;false;121
+354;Temperatura;false;121

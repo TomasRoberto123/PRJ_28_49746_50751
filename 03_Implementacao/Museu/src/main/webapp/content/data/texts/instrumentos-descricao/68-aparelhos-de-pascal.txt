@@ -1,0 +1,5 @@
+<p>O <b>aparelho de Pascal</b>, fig.111, em que se baseia o funcionamento das prensas hidráulicas, é uma aplicação do princípio de Pascal. Foi imaginado por Pascal, mas não foi construído senão em 1796 pelo engenheiro inglês Bramah. </p>
+<p>Princípio - Imaginemos um líquido, contido num vaso formado por dois corpos de bomba <b>C</b>, <b>C’</b> (fig. 124) de secções diferentes, <b>S</b>, <b>S’</b>, fechados por êmbolos <b>P</b>, <b>P’</b> e unidos por um tubo <b>AB</b>. Se se exercer uma força <b>F</b> sobre <b>P</b>, carregando-o, por exemplo, com um peso, o êmbolo <b>P’</b> tende a elevar-se, e para o manter em equilíbrio, é preciso aplicar-lhe uma força <b>F’</b> que está para <b>F</b> assim como <b>S’</b> está para <b>S</b>:</p>
+<div class="formula"><img class="mb-5" src="{{basePath}}data/texts/instrumentos-descricao/svgs/68-formula1.svg"></div>
+<p>Então, se <b>S’</b> for 10, 100, 1000, vezes superior a <b>S</b>, <b>F’</b> será 10, 100, 1000 maior que <b>F</b>.</p>
+<p>(traduzido de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 26<sup>ème</sup> édition, Librairie Hachette et Cie, Paris 1918).</p>

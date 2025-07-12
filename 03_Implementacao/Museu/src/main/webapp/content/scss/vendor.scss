@@ -1,0 +1,18 @@
+/* after changing this file run 'npm run webapp:build' */
+
+/***************************
+put Sass variables here:
+eg $input-color: red;
+****************************/
+// Override Bootstrap variables
+@import 'bootstrap-variables';
+// Import Bootstrap source files from node_modules
+@import '~bootstrap/scss/bootstrap';
+
+/* jhipster-needle-scss-add-vendor JHipster will add new css style */
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+// @import '~mdb-angular-ui-kit/assets/scss/mdb.scss';

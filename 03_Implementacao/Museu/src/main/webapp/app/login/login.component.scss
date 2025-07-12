@@ -1,0 +1,14 @@
+.btn {
+  color: #c4c4c4;
+  font-size: 1.1rem;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn:not(:disabled):hover {
+  font-weight: bold;
+}
+.btn:not(:disabled) {
+  color: #383e42;
+  outline: none !important;
+  box-shadow: none !important;
+}

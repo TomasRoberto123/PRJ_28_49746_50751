@@ -1,0 +1,24 @@
+{
+  "name": "Bibliografia",
+  "fields": [
+    {
+      "fieldName": "texto_path",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "is_livro",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "bibliografia",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210516195604"
+}

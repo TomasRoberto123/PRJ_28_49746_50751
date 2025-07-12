@@ -1,0 +1,149 @@
+<div *ngIf="loggedIN">
+  <div class="col-md-10 mx-auto" style="margin-bottom: 32px">
+    <h1 id="page-heading" data-cy="CategoriaHeading">
+      <span>Visitar</span>
+    </h1>
+  </div>
+
+  <div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+    Ir para o topo
+    <i class="fas fa-level-up-alt"></i>
+  </div>
+
+  <div class="col-md-10 mx-auto p-0" *ngIf="modulogamificacao">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card text-center w-100" placement="top" [ngbTooltip]="tipInstrumentos">
+          <img
+            class="card-img-top min-vh-50"
+            src="../../../content/images/instrumentos_imagem.png"
+            style="cursor: pointer;"
+            alt="foto image"
+            (click)="goToInstrumentos()"
+          />
+          <div class="card-header" (click)="goToInstrumentos()" style="cursor: pointer;">
+            <ng-template #tipInstrumentos>
+              Carregue aqui para poder ver as nossas categorias de instrumentos.
+            </ng-template>
+            <h5>Instrumentos</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card text-center w-100" placement="top" [ngbTooltip]="tipGlossario">
+          <ng-template #tipGlossario>
+            Carregue aqui para poder ver a lista completa dos nossos instrumentos de A a Z
+          </ng-template>
+          <img
+            class="card-img-top min-vh-50 img-fluid"
+            src="../../../content/images/glossario_imagem.png"
+            style="cursor: pointer; object-position: right;"
+            alt="foto image"
+            (click)="goToGlossario()"
+          />
+          <div class="card-header" (click)="goToGlossario()" style="cursor: pointer;">
+            <h5>Glossário</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card text-center w-100" placement="top" [ngbTooltip]="tipHistorias">
+          <ng-template #tipHistorias>
+            Carregue aqui para poder ler os nossos textos.
+          </ng-template>
+          <img
+            class="card-img-top min-vh-50 img-fluid"
+            src="../../../content/images/historias.png"
+            style="cursor: pointer;"
+            alt="foto image"
+            (click)="goToHistorias()"
+          />
+          <div class="card-header" (click)="goToHistorias()" style="cursor: pointer;">
+            <h5>História</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card text-center w-100" placement="top" [ngbTooltip]="tipQuestionarios">
+          <ng-template #tipQuestionarios>
+            Carregue aqui para poder testar o seu conhecimentos sobre as nossas categorias.
+          </ng-template>
+          <img
+            class="card-img-top min-vh-50 img-fluid"
+            src="../../../content/images/questionarios.png"
+            style="cursor: pointer; object-position: right;"
+            alt="foto image"
+            (click)="goToQuestionarios()"
+          />
+          <div class="card-header" (click)="goToQuestionarios()" style="cursor: pointer;">
+            <h5>Quiz</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-10 mx-auto p-0" *ngIf="!modulogamificacao">
+    <div class="row justify-content-around">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card text-center w-100" placement="top" [ngbTooltip]="tipInstrumentos">
+          <img
+            class="card-img-top min-vh-50"
+            src="../../../content/images/instrumentos_imagem.png"
+            style="cursor: pointer;"
+            alt="foto image"
+            (click)="goToInstrumentos()"
+          />
+          <div class="card-header" (click)="goToInstrumentos()" style="cursor: pointer;">
+            <ng-template #tipInstrumentos>
+              Carregue aqui para poder ver as nossas categorias de instrumentos.
+            </ng-template>
+            <h5>Instrumentos</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card text-center w-100" placement="top" [ngbTooltip]="tipGlossario">
+          <ng-template #tipGlossario>
+            Carregue aqui para poder ver a lista completa dos nossos instrumentos de A a Z
+          </ng-template>
+          <img
+            class="card-img-top min-vh-50 img-fluid"
+            src="../../../content/images/glossario_imagem.png"
+            style="cursor: pointer; object-position: right;"
+            alt="foto image"
+            (click)="goToGlossario()"
+          />
+          <div class="card-header" (click)="goToGlossario()" style="cursor: pointer;">
+            <h5>Glossário</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card text-center w-100" placement="top" [ngbTooltip]="tipHistorias">
+          <ng-template #tipHistorias>
+            Carregue aqui para poder ler os nossos textos.
+          </ng-template>
+          <img
+            class="card-img-top min-vh-50 img-fluid"
+            src="../../../content/images/historias.png"
+            style="cursor: pointer;"
+            alt="foto image"
+            (click)="goToHistorias()"
+          />
+          <div class="card-header" (click)="goToHistorias()" style="cursor: pointer;">
+            <h5>História</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!loggedIN"></div>
+

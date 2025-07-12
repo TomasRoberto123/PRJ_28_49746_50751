@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 26" width="53" height="26">
+	<title>image</title>
+	<defs>
+		<image  width="53" height="26" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAaCAMAAAAgwuShAAAAAXNSR0IB2cksfwAAAI1QTFRF////4NfTpa62+Pn5+fn4tq6lhYWFeXlqNUxdys/Vl35eAAAAXn6X2c7Cws7ZkHeE7/Ly5uPcgo6kvayZr7+/XUw1may93NzSExMur7bG8vLveWp5aWmGeFhDLhMTucbNQ1h47OrnyMjBkJCb3OPmIiJOPyY/pJuk6uznaURpzsHBaWlERGlpTiIihmlp68ksJgAAALlJREFUeJzlklkPgjAQhFEqHkOxFUEUBQ/w1v//8yShEK0cLW/GediHTb7d2ckaxh+r1zf1ADKwLGs4GnfYRfR8TJDJzquGDwo4RVX30U6V9JRllc+aKReYe/AXXrDMG6uQGXxtNlNkA5tHiCm2Io5duD+YhcNcVZTDoyChSJlo8WPSdtc39bFLlaq9y33zKlO1GZLT+cKurMwwvQH3B+BLNuTfoBUf0i5XHqsi8kw6UCIiPam842/rBY87EGNOm9PWAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

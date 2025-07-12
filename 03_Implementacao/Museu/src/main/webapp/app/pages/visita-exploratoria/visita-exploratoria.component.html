@@ -1,0 +1,138 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="!modulogamificacao">
+  <h1 class="page-heading">Esta página não existe.</h1>
+</div>
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="modulogamificacao">
+  <h1 id="page-heading" data-cy="QuestionarioHeading">
+    <span>Explorar</span>
+  </h1>
+</div>
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+<div class="col-md-10 mx-auto" *ngIf="!entrar && modulogamificacao">
+  <p>Esta página tem como objetivo introduzir os instrumentos da coleção.</p>
+  <p>Serão apresentadas questões sobre cada um às quais poderá responder.</p>
+  <p>
+    Quando responder a uma questão terá indicação se a sua resposta está correta ou errada através de um alteração de cor na opção que
+    escolheu.
+  </p>
+  <p>
+    Poderá, através de um botão de ajuda, consultar a ficha do instrumento em questão para auxílio à sua resposta. Se não carregar no botão
+    de ajuda a ficha será aberta automáticamente ao fim de 2 minutos, representados pela barra decrescente a cinzento.
+  </p>
+  <button class="button btn float-right align-items-center mr-1" type="button" (click)="entrar = true; startCountdown()">
+    <span>Continuar</span>
+    <i class="fa fa-angle-right ml-2"></i>
+  </button>
+</div>
+<div class="row m-1 col-md-10 mx-auto" *ngIf="entrar && modulogamificacao">
+  <div class="col-md-6 card border-bottom-0">
+    <div class="container mt-2">
+      <div class="d-flex justify-content-center row">
+        <div class="col-md-12 col-lg-12">
+          <div class="">
+            <div class="question bg-white pt-3 pr-3 pl-3 pb-0 border-bottom">
+              <div class="row d-flex flex-row justify-content-between align-items-center mcq pb-3">
+                <h4>Pergunta {{ numQuestao }} / {{ questoes?.length }}</h4>
+
+                <div class="col-md-6 pr-0">
+                  <ngb-progressbar type="" [value]="(numQuestao / questoes?.length) * 100"></ngb-progressbar>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 timer p-0">
+                  <ngb-progressbar type="" [value]="(counter / baseTime) * 100" style="height: 0.25rem"></ngb-progressbar>
+                </div>
+              </div>
+            </div>
+            <div class="question p-3">
+              <div class="d-flex flex-row align-items-center question-title">
+                <h5 class="mt-1 ml-2">{{ questaoActual.pergunta }}</h5>
+              </div>
+              <div class="ans ml-2" *ngFor="let opcao of questaoActual.opcaoQuestaoQuestionarios; let i = index">
+                <label class="custom-control custom-radio custom-control-inline">
+                  <input
+                    class="custom-control-input"
+                    name="selectedType"
+                    [disabled]="respondeu"
+                    [(ngModel)]="selectedType"
+                    [value]="opcao"
+                    type="radio"
+                  />
+                  <span
+                    class="custom-control-label"
+                    [style.color]="selectedType?.opcaoTexto === opcao.opcaoTexto ? getCor(selectedType) : ''"
+                    >{{ opcao.opcaoTexto }}</span
+                  >
+                </label>
+              </div>
+            </div>
+            <div class="d-flex flex-row justify-content-end align-items-center p-3 bg-white">
+              <!--<button class="btn btn-primary d-flex align-items-center btn-danger" type="button">
+                <i class="fa fa-angle-left mt-1 mr-1"></i>
+                previous</button>-->
+              <button
+                *ngIf="!respondeu"
+                class="button btn align-items-center mr-1"
+                [disabled]="!selectedType"
+                type="button"
+                (click)="showResposta()"
+              >
+                Responder
+                <i class="fa fa-angle-right ml-2"></i>
+              </button>
+              <button
+                *ngIf="respondeu"
+                class="button btn align-items-center mr-1"
+                [disabled]="!selectedType"
+                type="button"
+                (click)="getNextQuestion()"
+              >
+                Próxima
+                <i class="fa fa-angle-right ml-2"></i>
+              </button>
+              <button class="button btn align-items-center mr-1" [disabled]="isShown" type="button" (click)="showDetalhes()">
+                Ajuda
+                <i class="fa fa-info-circle ml-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 card border-bottom-0" *ngIf="questaoActual.instrumento?.fotos?.length > 0">
+    <div class="row">
+      <div class="col-md-10 mx-auto text-center" style="margin-bottom: 32px">
+        <img
+          src="{{ basePath }}{{ questaoActual.instrumento?.fotos[0]?.imagemPath }}"
+          style="max-width: 50%; margin-top: 32px"
+          alt="foto image"
+        />
+      </div>
+    </div>
+    <div class="row flex-column" *ngIf="isShown">
+      <div class="col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-md-12 p-0">
+            <p><b>Nome: </b>{{ questaoActual.instrumento.nome }}</p>
+          </div>
+          <div class="col-md-12 p-0">
+            <p><b>Fabricante: </b><span innerHTML="{{ questaoActual.instrumento.fabricante }}"></span></p>
+          </div>
+          <div class="col-md-12 p-0">
+            <p><b>Dimensões: </b><span innerHTML="{{ questaoActual.instrumento.dimensoes }}" class="font-italic"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="row" *ngIf="isShown">
+          <div innerHTML="{{ descricao }}"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

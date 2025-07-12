@@ -1,0 +1,6 @@
+<p>Trata-se de um modelo de uma <b>máquina a vapor marítima de dois cilindros</b> que é constituído por:</p>
+<p>&nbsp&nbsp&nbsp&nbsp - uma caldeira ou gerador de vapor;</p>
+<p>&nbsp&nbsp&nbsp&nbsp - dois cilindros verticais, onde se expande o vapor proveniente da caldeira, e correspondentes sistemas de bielas e manivelas, que transformam em movimento de rotação o movimento de vaivém dos êmbolos, transmitindo-o às rodas;</p>
+<p>&nbsp&nbsp&nbsp&nbsp - duas rodas munidas de pás que constituem o sistema de propulsão do barco.</p>
+<p>Todo o conjunto assenta numa plataforma de madeira.</p>
+

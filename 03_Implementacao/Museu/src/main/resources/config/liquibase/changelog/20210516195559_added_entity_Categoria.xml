@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Categoria.
+    -->
+    <changeSet id="20210516195559-1" author="museu">
+        <createTable tableName="categoria">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="nome" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="descricao" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="imagem_path" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+        </createTable>
+
+        <loadData
+            file="config/liquibase/data/categoria.csv"
+            separator=";"
+            tableName="categoria">
+            <column name="id" type="numeric"/>
+            <column name="nome" type="string"/>
+            <column name="descricao" type="string"/>
+            <column name="imagem_path" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

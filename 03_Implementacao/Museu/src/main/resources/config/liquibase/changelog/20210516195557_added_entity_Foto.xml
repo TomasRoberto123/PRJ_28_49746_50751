@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Foto.
+    -->
+    <changeSet id="20210516195557-1" author="museu">
+        <createTable tableName="foto">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="nome" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="imagem_path" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="is_figura" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="legenda" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="instrumento_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="historia_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+        </createTable>
+
+        <loadData
+            file="config/liquibase/data/foto.csv"
+            separator=";"
+            tableName="foto">
+            <column name="id" type="numeric"/>
+            <column name="nome" type="string"/>
+            <column name="imagem_path" type="string"/>
+            <column name="is_figura" type="boolean"/>
+            <column name="legenda" type="string"/>
+            <column name="instrumento_id" type="numeric"/>
+            <column name="historia_id" type="numeric"/>
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

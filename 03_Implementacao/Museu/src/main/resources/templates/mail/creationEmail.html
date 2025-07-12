@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:lang="${#locale.language}" lang="pt">
+  <head>
+    <title th:text="#{email.activation.title}">Criação conta</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" th:href="@{|${baseUrl}/favicon.ico|}" />
+  </head>
+  <body>
+    <p th:text="#{email.activation.greeting(${user.login})}">Bem vindo</p>
+    <p th:text="#{email.creation.text1}">A sua conta foi criada, por favor carregue no link abaixo para aceder:</p>
+    <p>
+      <a th:with="url=(@{|${baseUrl}/account/reset/finish?key=${user.resetKey}|})" th:href="${url}" th:text="${url}">Link de login</a>
+    </p>
+    <p>
+      <span th:text="#{email.activation.text2}">Cumprimentos, </span>
+      <br />
+      <em th:text="#{email.signature}">Equipa Museu de Física do ISEL.</em>
+    </p>
+  </body>
+</html>

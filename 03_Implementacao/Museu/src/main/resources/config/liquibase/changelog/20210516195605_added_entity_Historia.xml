@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Historia.
+    -->
+    <changeSet id="20210516195605-1" author="museu">
+        <createTable tableName="historia">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="titulo" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="autor" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="conteudo_path" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+        </createTable>
+
+        <loadData
+            file="config/liquibase/data/historia.csv"
+            separator=";"
+            tableName="historia">
+            <column name="id" type="numeric"/>
+            <column name="titulo" type="string"/>
+            <column name="autor" type="string"/>
+            <column name="conteudo_path" type="string"/>
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

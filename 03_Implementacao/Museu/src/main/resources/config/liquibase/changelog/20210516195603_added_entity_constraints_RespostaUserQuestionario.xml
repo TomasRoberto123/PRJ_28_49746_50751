@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity RespostaUserQuestionario.
+    -->
+    <changeSet id="20210516195603-2" author="museu">
+
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="resposta_user_questionario"
+                                 constraintName="fk_resposta_user_questionario__user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="questionario_id"
+                                 baseTableName="resposta_user_questionario"
+                                 constraintName="fk_resposta_user_questionario__questionario_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="questionario"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,58 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="!modulogamificacao">
+  <h1 class="page-heading">Esta página não existe.</h1>
+</div>
+<div *ngIf="modulogamificacao">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 col-md-8 col-sm-10">
+      <h1 data-cy="loginTitle">Entrar</h1>
+      <div class="alert alert-danger" *ngIf="authenticationError" data-cy="loginError">
+        <strong>Falha ao iniciar sessão!</strong>Por favor verifique as suas credenciais e tente novamente.
+      </div>
+      <form class="form" role="form" (ngSubmit)="login()" [formGroup]="loginForm">
+        <div class="form-group">
+          <label class="username-label" for="username">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            name="username"
+            id="username"
+            placeholder="O seu username"
+            formControlName="username"
+            #username
+            data-cy="username"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Palavra-passe</label>
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            id="password"
+            placeholder="A sua palavra-passe"
+            formControlName="password"
+            data-cy="password"
+          />
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label" for="rememberMe">
+            <input class="form-check-input" type="checkbox" name="rememberMe" id="rememberMe" formControlName="rememberMe" />
+            <span>Lembrar-me</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn pl-0" data-cy="submit">Entrar <i class="fas fa-sign-in-alt"></i></button>
+      </form>
+      <div class="mt-3 alert alert-warning">
+        <a class="alert-link" routerLink="/account/reset/request" data-cy="forgetYourPasswordSelector">Esqueceu-se da sua palavra-passe?</a>
+      </div>
+
+      <div class="alert alert-warning">
+        <span>Ainda não tem conta?</span>
+        <a class="alert-link" routerLink="/account/register">Registe-se</a>
+      </div>
+    </div>
+  </div>
+</div>

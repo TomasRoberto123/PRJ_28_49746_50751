@@ -1,0 +1,327 @@
+id;nome;imagem_path;is_figura;legenda;instrumento_id;historia_id
+1;detacu02;data/images/fotos/acustica/detacu02.jpg;false;null;1;null
+2;detacu01;data/images/fotos/acustica/detacu01.jpg;false;null;2;null
+
+3;ampbar01;data/images/fotos/calor-termo/2-barometros/ampbar01.jpg;false;null;3;null
+4;ampbar02;data/images/fotos/calor-termo/2-barometros/ampbar02.jpg;false;null;4;null
+5;ampbar03;data/images/fotos/calor-termo/2-barometros/ampbar03.jpg;false;null;5;null
+
+6;ampman01;data/images/fotos/calor-termo/3-manometros/ampman01.jpg;false;null;6;null
+
+7;ampter01;data/images/fotos/calor-termo/4-termometros/ampter01.jpg;false;null;7;null
+8;ampter02;data/images/fotos/calor-termo/4-termometros/ampter02.jpg;false;null;8;null
+9;ampter03;data/images/fotos/calor-termo/4-termometros/ampter03.jpg;false;null;9;null
+10;ampter04;data/images/fotos/calor-termo/4-termometros/ampter04.jpg;false;null;10;null
+11;ampter05;data/images/fotos/calor-termo/4-termometros/ampter05.jpg;false;null;11;null
+
+12;ampmaq01;data/images/fotos/calor-termo/5-maquinas-a-vapor/ampmaq01.jpg;false;null;12;null
+13;ampmaq02;data/images/fotos/calor-termo/5-maquinas-a-vapor/ampmaq02.jpg;false;null;13;null
+14;ampmaq03;data/images/fotos/calor-termo/5-maquinas-a-vapor/ampmaq03.jpg;false;null;14;null
+15;ampmaq04;data/images/fotos/calor-termo/5-maquinas-a-vapor/ampmaq04.jpg;false;null;15;null
+
+16;ampcalor01;data/images/fotos/calor-termo/6-geral/ampcalor01.jpg;false;null;16;null
+17;ampcalor02;data/images/fotos/calor-termo/6-geral/ampcalor02.jpg;false;null;17;null
+18;ampcalor03;data/images/fotos/calor-termo/6-geral/ampcalor03.jpg;false;null;18;null
+19;ampcalor04;data/images/fotos/calor-termo/6-geral/ampcalor04.jpg;false;null;19;null
+20;ampcalor05;data/images/fotos/calor-termo/6-geral/ampcalor05.jpg;false;null;20;null
+21;ampcalor06;data/images/fotos/calor-termo/6-geral/ampcalor06.jpg;false;null;21;null
+22;ampcalor07;data/images/fotos/calor-termo/6-geral/ampcalor07.jpg;false;null;22;null
+23;ampcalor08;data/images/fotos/calor-termo/6-geral/ampcalor08.jpg;false;null;23;null
+24;ampcalor09;data/images/fotos/calor-termo/6-geral/ampcalor09.jpg;false;null;24;null
+25;ampcalor10_I;data/images/fotos/calor-termo/6-geral/ampcalor10_I.jpg;false;null;25;null
+26;ampcalor10_II;data/images/fotos/calor-termo/6-geral/ampcalor10_II.jpg;false;null;25;null
+27;ampcalor11;data/images/fotos/calor-termo/6-geral/ampcalor11.jpg;false;null;26;null
+
+28;detcap01;data/images/fotos/capilaridade/detcap01.jpg;false;null;27;null
+29;detcap02;data/images/fotos/capilaridade/detcap02.jpg;false;null;28;null
+30;detcap03;data/images/fotos/capilaridade/detcap03.jpg;false;null;29;null
+
+31;ampapa01;data/images/fotos/electro/8-apa-med/ampapa01.jpg;false;null;30;null
+32;ampapa02_I;data/images/fotos/electro/8-apa-med/ampapa02_I.jpg;false;null;31;null
+33;ampapa02_II;data/images/fotos/electro/8-apa-med/ampapa02_II.jpg;false;null;31;null
+34;ampapa02_III;data/images/fotos/electro/8-apa-med/ampapa02_III.jpg;false;null;31;null
+35;ampapa03;data/images/fotos/electro/8-apa-med/ampapa03.jpg;false;null;32;null
+36;ampapa04_I;data/images/fotos/electro/8-apa-med/ampapa04_I.jpg;false;null;33;null
+37;ampapa04_II;data/images/fotos/electro/8-apa-med/ampapa04_II.jpg;false;null;34;null
+38;ampapa04_III;data/images/fotos/electro/8-apa-med/ampapa04_III.jpg;false;null;34;null
+39;ampapa04_IV;data/images/fotos/electro/8-apa-med/ampapa04_IV.jpg;false;null;34;null
+40;ampapa04_V;data/images/fotos/electro/8-apa-med/ampapa04_V.jpg;false;null;34;null
+
+41;ampbus01;data/images/fotos/electro/9-bussolas/ampbus01.jpg;false;null;35;null
+42;ampbus02;data/images/fotos/electro/9-bussolas/ampbus02.jpg;false;null;36;null
+
+43;ampeleq01;data/images/fotos/electro/10-eletroquimica/ampeleq01.jpg;false;null;37;null
+44;ampeleq02;data/images/fotos/electro/10-eletroquimica/ampeleq02.jpg;false;null;38;null
+45;ampeleq03_I;data/images/fotos/electro/10-eletroquimica/ampeleq03_I.jpg;false;null;39;null
+46;ampeleq03_II;data/images/fotos/electro/10-eletroquimica/ampeleq03_II.jpg;false;null;39;null
+
+47;ampelee01;data/images/fotos/electro/11-eletroestatica/ampelee01.jpg;false;null;40;null
+48;ampelee02;data/images/fotos/electro/11-eletroestatica/ampelee02.jpg;false;null;41;null
+49;ampelee03;data/images/fotos/electro/11-eletroestatica/ampelee03.jpg;false;null;42;null
+50;ampelee04;data/images/fotos/electro/11-eletroestatica/ampelee04.jpg;false;null;43;null
+51;ampelee05;data/images/fotos/electro/11-eletroestatica/ampelee05.jpg;false;null;44;null
+52;ampelee06;data/images/fotos/electro/11-eletroestatica/ampelee06.jpg;false;null;45;null
+53;ampelee07;data/images/fotos/electro/11-eletroestatica/ampelee07.jpg;false;null;46;null
+54;ampelee08;data/images/fotos/electro/11-eletroestatica/ampelee08.jpg;false;null;47;null
+55;ampelee09;data/images/fotos/electro/11-eletroestatica/ampelee09.jpg;false;null;48;null
+
+56;ampmotg01;data/images/fotos/electro/12-motores-geradores/ampmotg01.jpg;false;null;49;null
+57;ampmotg02;data/images/fotos/electro/12-motores-geradores/ampmotg02.jpg;false;null;50;null
+58;ampmotg03;data/images/fotos/electro/12-motores-geradores/ampmotg03.jpg;false;null;51;null
+59;ampmotg04;data/images/fotos/electro/12-motores-geradores/ampmotg04.jpg;false;null;52;null
+
+60;ampger01_I;data/images/fotos/electro/13-geral/ampger01_I.jpg;false;null;53;null
+61;ampger01_II;data/images/fotos/electro/13-geral/ampger01_II.jpg;false;null;53;null
+62;ampger01_III;data/images/fotos/electro/13-geral/ampger01_III.jpg;false;null;53;null
+63;ampger02_I;data/images/fotos/electro/13-geral/ampger02_I.jpg;false;null;54;null
+64;ampger02_II;data/images/fotos/electro/13-geral/ampger02_II.jpg;false;null;54;null
+65;ampger02_III;data/images/fotos/electro/13-geral/ampger02_III.jpg;false;null;54;null
+66;ampger03;data/images/fotos/electro/13-geral/ampger03.jpg;false;null;55;null
+67;ampger04;data/images/fotos/electro/13-geral/ampger04.jpg;false;null;56;null
+68;ampger05_I;data/images/fotos/electro/13-geral/ampger05_I.jpg;false;null;57;null
+69;ampger05_II;data/images/fotos/electro/13-geral/ampger05_II.jpg;false;null;57;null
+70;ampger06;data/images/fotos/electro/13-geral/ampger06.jpg;false;null;58;null
+71;ampger07;data/images/fotos/electro/13-geral/ampger07.jpg;false;null;59;null
+72;ampger08;data/images/fotos/electro/13-geral/ampger08.jpg;false;null;60;null
+
+74;ampapaagua01;data/images/fotos/hidro/14-aparelhoselevacaodeagua/ampapaagua01.jpg;false;null;61;null
+75;ampapaagua02;data/images/fotos/hidro/14-aparelhoselevacaodeagua/ampapaagua02.jpg;false;null;62;null
+76;ampapaagua03;data/images/fotos/hidro/14-aparelhoselevacaodeagua/ampapaagua03.jpg;false;null;63;null
+
+77;ampbombagua01;data/images/fotos/hidro/15-bombasdeagua/ampbombagua01.jpg;false;null;64;null
+78;ampbombagua02;data/images/fotos/hidro/15-bombasdeagua/ampbombagua02.jpg;false;null;65;null
+
+79;amphidrogeral01;data/images/fotos/hidro/16-geral/amphidrogeral01.jpg;false;null;66;null
+80;amphidrogeral02;data/images/fotos/hidro/16-geral/amphidrogeral02.jpg;false;null;67;null
+81;amphidrogeral03;data/images/fotos/hidro/16-geral/amphidrogeral03.jpg;false;null;68;null
+82;amphidrogeral04;data/images/fotos/hidro/16-geral/amphidrogeral04.jpg;false;null;69;null
+83;amphidrogeral05;data/images/fotos/hidro/16-geral/amphidrogeral05.jpg;false;null;70;null
+84;amphidrogeral06;data/images/fotos/hidro/16-geral/amphidrogeral06.jpg;false;null;71;null
+85;amphidrogeral07;data/images/fotos/hidro/16-geral/amphidrogeral07.jpg;false;null;72;null
+86;amphidrogeral08_I;data/images/fotos/hidro/16-geral/amphidrogeral08_I.jpg;false;null;73;null
+87;amphidrogeral08_II;data/images/fotos/hidro/16-geral/amphidrogeral08_II.jpg;false;null;73;null
+88;amphidrogeral09;data/images/fotos/hidro/16-geral/amphidrogeral09.jpg;false;null;74;null
+89;amphidrogeral10;data/images/fotos/hidro/16-geral/amphidrogeral10.jpg;false;null;75;null
+90;amphidrogeral11;data/images/fotos/hidro/16-geral/amphidrogeral11.jpg;false;null;76;null
+91;amphidrogeral12;data/images/fotos/hidro/16-geral/amphidrogeral12.jpg;false;null;77;null
+
+92;ampapamed01;data/images/fotos/mecanica/17-apa-med/ampapamed01.jpg;false;null;78;null
+93;ampapamed02;data/images/fotos/mecanica/17-apa-med/ampapamed02.jpg;false;null;79;null
+94;ampapamed03;data/images/fotos/mecanica/17-apa-med/ampapamed03.jpg;false;null;80;null
+95;ampapamed04;data/images/fotos/mecanica/17-apa-med/ampapamed04.jpg;false;null;81;null
+96;ampapamed05;data/images/fotos/mecanica/17-apa-med/ampapamed05.jpg;false;null;82;null
+97;ampapamed06;data/images/fotos/mecanica/17-apa-med/ampapamed06.jpg;false;null;83;null
+98;ampapamed07;data/images/fotos/mecanica/17-apa-med/ampapamed07.jpg;false;null;84;null
+
+99;ampbal01;data/images/fotos/mecanica/18-balancas/ampbal01.jpg;false;null;85;null
+100;ampbal02;data/images/fotos/mecanica/18-balancas/ampbal02.jpg;false;null;86;null
+101;ampbal03_I;data/images/fotos/mecanica/18-balancas/ampbal03_I.jpg;false;null;87;null
+102;ampbal03_II;data/images/fotos/mecanica/18-balancas/ampbal03_II.jpg;false;null;87;null
+103;ampbal04;data/images/fotos/mecanica/18-balancas/ampbal04.jpg;false;null;88;null
+104;ampbal05;data/images/fotos/mecanica/18-balancas/ampbal05.jpg;false;null;89;null
+105;ampbal06;data/images/fotos/mecanica/18-balancas/ampbal06.jpg;false;null;90;null
+106;ampbal07;data/images/fotos/mecanica/18-balancas/ampbal07.jpg;false;null;91;null
+
+107;ampdina01;data/images/fotos/mecanica/19-dinamometros/ampdina01.jpg;false;null;92;null
+108;ampdina02;data/images/fotos/mecanica/19-dinamometros/ampdina02.jpg;false;null;93;null
+
+
+109;ampmaqsim01;data/images/fotos/mecanica/20-maquina-simples/ampmaqsim01.jpg;false;null;94;null
+110;ampmaqsim02;data/images/fotos/mecanica/20-maquina-simples/ampmaqsim02.jpg;false;null;95;null
+111;ampmaqsim03;data/images/fotos/mecanica/20-maquina-simples/ampmaqsim03.jpg;false;null;96;null
+112;ampmaqsim04;data/images/fotos/mecanica/20-maquina-simples/ampmaqsim04.jpg;false;null;97;null
+113;ampmaqsim05;data/images/fotos/mecanica/20-maquina-simples/ampmaqsim05.jpg;false;null;98;null
+114;ampmaqsim06;data/images/fotos/mecanica/20-maquina-simples/ampmaqsim06.jpg;false;null;99;null
+115;ampmaqsim07;data/images/fotos/mecanica/20-maquina-simples/ampmaqsim07.jpg;false;null;100;null
+116;ampmaqsim08;data/images/fotos/mecanica/20-maquina-simples/ampmaqsim08.jpg;false;null;101;null
+
+117;amptor01;data/images/fotos/mecanica/21-torniquetes/amptor01.jpg;false;null;102;null
+118;amptor02;data/images/fotos/mecanica/21-torniquetes/amptor02.jpg;false;null;103;null
+119;amptor03;data/images/fotos/mecanica/21-torniquetes/amptor03.jpg;false;null;104;null
+
+120;ampmec01_00;data/images/fotos/mecanica/22-geral/ampmec01_00.jpg;false;null;105;null
+121;ampmec01_I;data/images/fotos/mecanica/22-geral/ampmec01_I.jpg;false;null;105;null
+122;ampmec01_II;data/images/fotos/mecanica/22-geral/ampmec01_II.jpg;false;null;105;null
+123;ampmec01_III;data/images/fotos/mecanica/22-geral/ampmec01_III.jpg;false;null;105;null
+124;ampmec01_IV;data/images/fotos/mecanica/22-geral/ampmec01_IV.jpg;false;null;105;null
+125;ampmec01_V;data/images/fotos/mecanica/22-geral/ampmec01_V.jpg;false;null;105;null
+126;ampmec01_VI;data/images/fotos/mecanica/22-geral/ampmec01_VI.jpg;false;null;105;null
+127;ampmec01_VII;data/images/fotos/mecanica/22-geral/ampmec01_VII.jpg;false;null;105;null
+128;ampmec01_VIII;data/images/fotos/mecanica/22-geral/ampmec01_VIII.jpg;false;null;105;null
+129;ampmec01_IX;data/images/fotos/mecanica/22-geral/ampmec01_IX.jpg;false;null;105;null
+130;ampmec01_X;data/images/fotos/mecanica/22-geral/ampmec01_X.jpg;false;null;105;null
+131;ampmec02;data/images/fotos/mecanica/22-geral/ampmec02.jpg;false;null;106;null
+132;ampmec03;data/images/fotos/mecanica/22-geral/ampmec03.jpg;false;null;107;null
+133;ampmec04;data/images/fotos/mecanica/22-geral/ampmec04.jpg;false;null;108;null
+134;ampmec05;data/images/fotos/mecanica/22-geral/ampmec05.jpg;false;null;109;null
+
+135;ampopt01;data/images/fotos/optica/ampopt01.jpg;false;null;110;null
+136;ampopt02;data/images/fotos/optica/ampopt02.jpg;false;null;111;null
+137;ampopt03;data/images/fotos/optica/ampopt03.jpg;false;null;112;null
+138;ampopt04;data/images/fotos/optica/ampopt04.jpg;false;null;113;null
+139;ampopt05;data/images/fotos/optica/ampopt05.jpg;false;null;114;null
+140;ampopt06;data/images/fotos/optica/ampopt06.jpg;false;null;115;null
+141;ampopt07;data/images/fotos/optica/ampopt07.jpg;false;null;116;null
+142;ampopt08;data/images/fotos/optica/ampopt08.jpg;false;null;117;null
+143;ampopt09;data/images/fotos/optica/ampopt09.jpg;false;null;118;null
+144;ampopt10;data/images/fotos/optica/ampopt10.jpg;false;null;119;null
+145;ampopt11;data/images/fotos/optica/ampopt11.jpg;false;null;120;null
+146;ampopt12;data/images/fotos/optica/ampopt12.jpg;false;null;121;null
+147;ampopt13_I;data/images/fotos/optica/ampopt13_I.jpg;false;null;122;null
+148;ampopt13_II;data/images/fotos/optica/ampopt13_II.jpg;false;null;122;null
+
+149;francisco_fonseca_benevides;data/images/fotos/historias/FFB.jpg;false;null;null;2
+
+
+150;acu01_F01;data/images/fotos/acustica/acu01_F01.jpg;true;"Fig. 422 de F. J. Sousa Gomes, Álvaro R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Livraria Cruz-Editora, Braga, 1918.";2;null
+151;acu01_F02;data/images/fotos/acustica/acu01_F02.jpg;true;"Fig. 423 de F. J. Sousa Gomes, Álvaro R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Livraria Cruz-Editora, Braga, 1918.";2;null
+152;acu02_F01;data/images/fotos/acustica/acu02_F01.jpg;true;"Fig. 370 do catálogo <i>Les Fils d’Emile Deyrolle </i>, Paris. ";1;null
+
+153;bar01_F01;data/images/fotos/calor-termo/2-barometros/bar01_F01.jpg;true;"Fig. 4 de Amorim Ferreira, <i>Trabalhos Práticos de Física</i>, Livraria Sá da Costa, Lisboa 1936.";3;null
+154;bar02_F01;data/images/fotos/calor-termo/2-barometros/bar02_F01.jpg;true;"Fig.176 do catálogo <i>Les Fils d’Émile Deyrolle</i>, Paris";4;null
+155;bar03_F01;data/images/fotos/calor-termo/2-barometros/bar03_F01.jpg;true;"Fig. 202 de F. J. Sousa Gomes, Álvaro R. Machado, <i>Elementos de Física Descritiva</i>¸ Livraria Cruz – Editora, Braga 1918.";5;null
+
+156;ter01_F01;data/images/fotos/calor-termo/4-termometros/ter01_F01.jpg;true;"Fig. 512 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 21<sup>ére</sup> édition, Librairie Hachette et Cie, Paris, 1894.";7;null
+157;ter01_F02;data/images/fotos/calor-termo/4-termometros/ter01_F02.jpg;true;"Fig. 514 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 21<sup>ére</sup> édition, Librairie Hachette et Cie, Paris, 1894.";7;null
+158;ter02_F01;data/images/fotos/calor-termo/4-termometros/ter02_F01.jpg;true;"Fig. 274 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, Typographia da Academia Real das Sciências, Lisboa 1880.";8;null
+159;ter03_F01;data/images/fotos/calor-termo/4-termometros/ter03_F01.jpg;true;"Fig. 273 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, Typographia da Academia Real das Sciências, Lisboa 1880.";9;null
+160;ter04_F01;data/images/fotos/calor-termo/4-termometros/ter04_F01.jpg;true;"Fig. 355 de E. Gouard, G. Hiernaux, <i>Mecanique et Physique - à l’usage des candidats aux écoles nationales d’Arts et Métiers</i>, 3<sup>ème</sup> édition, Dunod, Paris, 1931.";10;null
+
+161;maq03_F01;data/images/fotos/calor-termo/5-maquinas-a-vapor/maq03_F01.jpg;true;"Figura 388 de F.J. Sousa Gomes e Álvaro R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Livraria Cruz-Editora, Braga 1918.";14;null
+162;maq03_F02;data/images/fotos/calor-termo/5-maquinas-a-vapor/maq03_F02.jpg;true;"Figura 390 de F.J. Sousa Gomes e Álvaro R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Livraria Cruz-Editora, Braga 1918.";14;null
+
+163;calor01_F01;data/images/fotos/calor-termo/6-geral/calor01_F01.jpg;true;"Fig.538 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 21<sup>ére</sup> édition, Librairie Hachette et Cie., Paris, 1894.";16;null
+164;calor02_F01;data/images/fotos/calor-termo/6-geral/calor02_F01.jpg;true;"Fig. 276 de M. Chassagny, <i>Cours Élèmentaire de Physique</i>, Librairie Hachette et Cie., Paris, 1912.";17;null
+165;calor03_F01;data/images/fotos/calor-termo/6-geral/calor03_F01.jpg;true;"Fig.565 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 21<sup>ére</sup> édition, Librairie Hachette et Cie., Paris, 1894.";18;null
+166;calor04_F01;data/images/fotos/calor-termo/6-geral/calor04_F01.jpg;true;"Fig. 274 de M. Chassagny, <i>Cours Élémentaire de Physique</i>, Librairie Hachette et Cie., 6<sup>ème</sup> édition, Paris, 1912.";19;null
+167;calor05_F01;data/images/fotos/calor-termo/6-geral/calor05_F01.jpg;true;"Fig. 299 de A. Ganot, G. Maneuvrier, <i>Traité Élèmentaire de Physique</i>, Librairie Hachette et Cie., 25<sup>ème</sup>édition, Paris, 1913.";20;null
+168;calor06_F01;data/images/fotos/calor-termo/6-geral/calor06_F01.jpg;true;"Fig. 167 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 21<sup>ére</sup> édition, Librairie Hachette et Cie., Paris, 1894.";21;null
+169;calor07_F01;data/images/fotos/calor-termo/6-geral/calor07_F01.jpg;true;"Fig. 313 de F. da Fonseca Benevides, <i>Noções de Physica Moderna</i>, Tomo II, Tipographia da Academia Real das Sciências, Lisboa, 1880.";22;null
+170;calor08_F01;data/images/fotos/calor-termo/6-geral/calor08_F01.jpg;true;"Fig. 125 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, Tipographia da Academia Real das Sciências, Lisboa, 1880. ";23;null
+171;calor08_F02;data/images/fotos/calor-termo/6-geral/calor08_F02.jpg;true;"Fig. 126 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, Tipographia da Academia Real das Sciências, Lisboa, 1880. ";23;null
+172;calor09_F01;data/images/fotos/calor-termo/6-geral/calor09_F01.jpg;true;"Fig. 336 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 25<sup>ème</sup> édition, Librairie Hachette et Cie., Paris, 1913.";24;null
+173;calor11_F01;data/images/fotos/calor-termo/6-geral/calor11_F01.jpg;true;"Fig. 537 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 21<sup>ére édition</sup>, Librairie Hachette et Cie., Paris, 1894";26;null
+
+174;cap01_F01;data/images/fotos/capilaridade/cap01_F01.jpg;true;"Fig. 87779 do catálogo Max Kohl A. G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne";27;null
+175;cap02_F01;data/images/fotos/capilaridade/cap02_F01.jpg;true;"Fig. 234 do catálogo <i>Les Fils d’Emile Deyrolle</i>, Paris.";28;null
+176;cap03_F01;data/images/fotos/capilaridade/cap03_F01.jpg;true;"Fig. 235 do catálogo <i>Les Fils d’Emile Deyrolle</i>, Paris.";29;null
+
+177;apa02_F01;data/images/fotos/electro/8-apa-med/apa02_F01.jpg;true;"Fig. 94014 do catálogo Max Kohl A. G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne.";31;null
+
+178;bus01_F01;data/images/fotos/electro/9-bussolas/bus01_F01.jpg;true;"Fig. 4358 do catálogo Dr. Stöhrer u. Sohn, <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig. ";35;null
+
+179;eleq01_F01;data/images/fotos/electro/10-eletroquimica/eleq01_F01.jpg;true;"Fig. 486 de F. J. Gomes, A. R. Machado, <i>Elementos de Física Descritiva</i>, Editora Livraria Cruz, Braga, 1918.";37;null
+180;eleq03_F01;data/images/fotos/electro/10-eletroquimica/eleq03_F01.jpg;true;"Fig. 628 do catálogo <i>Les Fils d’Emile Deyrolle</i>, Paris.";39;null
+181;eleq03_F02;data/images/fotos/electro/10-eletroquimica/eleq03_F03.jpg;true;"Fig. 95018 do catálogo Max Kohl A. G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne.";39;null
+
+182;elee02_F01;data/images/fotos/electro/11-eletroestatica/elee02_F01.jpg;true;"Fig. 594 do catálogo <i>Les Fils d’Emile Deyrolle</i>, Paris.";41;null
+183;elee04_F01;data/images/fotos/electro/11-eletroestatica/elee04_F01.jpg;true;"Fig. 478 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, Typographia da Academia Real das Sciencias, Lisboa, 1880.";43;null
+184;elee05_F01;data/images/fotos/electro/11-eletroestatica/elee05_F01.jpg;true;"Fig. 92563 do catálogo Max Kohl A. G., <i>Appareils de Physique</i>, nº 100, Tome III, Chemnitz, Allemagne.";44;null
+185;elee07_F01;data/images/fotos/electro/11-eletroestatica/elee07_F01.jpg;true;"Fig. 4723/1 do catálogo Dr. Stöhrer u. Sohn, <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig.";46;null
+186;elee07_F02;data/images/fotos/electro/11-eletroestatica/elee07_F02.jpg;true;"Fig. 4723/2 do catálogo Dr. Stöhrer u. Sohn, <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig.";46;null
+187;elee07_F03;data/images/fotos/electro/11-eletroestatica/elee07_F03.jpg;true;"Fig. 4738 do catálogo Dr. Stöhrer u. Sohn, <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig.";46;null
+
+188;motg02_F01;data/images/fotos/electro/12-motores-geradores/motg02_F01.jpg;true;"Fig. 568 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, Typographia da Academia Real das Sciencias, Lisboa, 1880.";50;null
+189;motg03_F01;data/images/fotos/electro/12-motores-geradores/motg03_F01.jpg;true;"Fig. 641 do catálogo <i>Les Fils d’Emile Deyrolle</i>, Paris.";51;null
+190;motg04_F01;data/images/fotos/electro/12-motores-geradores/motg04_F01.jpg;true;"Fig. 464 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, Typographia da Academia Real das Sciencias, Lisboa, 1880.";52;null
+
+191;ger02_F01;data/images/fotos/electro/13-geral/ger02_F01.jpg;true;"Fig. 483 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, Typographia da Academia Real das Sciencias, Lisboa, 1880.";54;null
+192;ger05_F01;data/images/fotos/electro/13-geral/ger05_F01.jpg;true;"Fig. 5305 do catálogo Dr. Stöhrer und Sohn, <i>Physikalische und Chemische Lehrmittel</i>, Ausgabe IX, Leipzig.";57;null
+193;ger06_F01;data/images/fotos/electro/13-geral/ger06_F01.jpg;true;"Fig. 1747 do catálogo W.M. Welsh Scientific Company, <i>Laboratory Apparatus and Supplies for Physics and Chemistry</i>, Catalog “G”, Chicago, 1922.";58;null
+
+194;apaagua02_F01;data/images/fotos/hidro/14-aparelhoselevacaodeagua/apaagua02_F01.jpg;true;"Fig. 231 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, 3ª edição, Typographia da Academia Real das Sciências, Lisboa 1880.";62;null
+195;apaagua03_F01;data/images/fotos/hidro/14-aparelhoselevacaodeagua/apaagua03_F01.jpg;true;"Fig. 230 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, 3ª edição, Typographia da Academia Real das Sciências, Lisboa 1880";63;null
+
+196;bombagua01_F01;data/images/fotos/hidro/15-bombasdeagua/bombagua01_F01.jpg;true;"Fig. 221 de F. J. Sousa Gomes, A. R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Editora Livraria Cruz, Braga 1918.";64;null
+197;bombagua02_F01;data/images/fotos/hidro/15-bombasdeagua/bombagua02_F01.jpg;true;"Fig. 151 de P. Métral, <i>Précis de Physique</i>, 2<sup>ème</sup édition, Masson et Cie. Éditeurs, Paris 1930.";65;null
+
+198;hidrogeral01_F01;data/images/fotos/hidro/16-geral/hidrogeral01_F01.jpg;true;"Fig. 96 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, 3ª edição, Tipographia da Academia Real das Sciências, Lisboa 1880.";66;null
+199;hidrogeral02_F01;data/images/fotos/hidro/16-geral/hidrogeral02_F01.jpg;true;"Fig. 100 de M. Chassagny, <i>Cours Élémentaire de Physique</i>, 6<sup>ème</sup> edition, Librairie Hachette et Cie, Paris 1912.";67;null
+200;hidrogeral03_F01;data/images/fotos/hidro/16-geral/hidrogeral03_F01.jpg;true;"Fig. 111 do catálogo <i>Les fils d’Émile Deyrolle</i>, Paris";68;null
+201;hidrogeral03_F02;data/images/fotos/hidro/16-geral/hidrogeral03_F02.jpg;true;"Fig. 124 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 26<sup>ème</sup> édition, Librairie Hachette et Cie, Paris 1918.";68;null
+202;hidrogeral04_F01;data/images/fotos/hidro/16-geral/hidrogeral04_F01.jpg;true;"Fig. 100 de <i>Cours de Physique, 1<sup>ére</sup>, 2<sup>ème</sup> et 3<sup>ème</sup> Années, par Une Réunion de Professeurs</i>, Librairie Genérale, Paris.";69;null
+203;hidrogeral05_F01;data/images/fotos/hidro/16-geral/hidrogeral05_F01.jpg;true;Fig. 1 – Esquema do carneiro hidráulico;70;null
+204;hidrogeral06_F01;data/images/fotos/hidro/16-geral/hidrogeral06_F01.jpg;true;"Fig.112 do catálogo <i>Les Fils d’Émile Deyrolle</i>, Paris.";71;null
+205;hidrogeral07_F01;data/images/fotos/hidro/16-geral/hidrogeral07_F01.jpg;true;"Fig. 213 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, 3ª edição, Tipographia da Academia Real das Sciências, Lisboa 1880.";72;null
+206;hidrogeral09_F01;data/images/fotos/hidro/16-geral/hidrogeral09_F01.jpg;true;"Fig. 143 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, 3ª edição, Typographia da Academia Real das Sciencias, Lisboa 1880.";74;null
+207;hidrogeral10_F01;data/images/fotos/hidro/16-geral/hidrogeral10_F01.jpg;true;"Fig. 98 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, 3ª edição, Typographia da Academia Real das Sciencias, Lisboa 1880.";75;null
+208;hidrogeral11_F01;data/images/fotos/hidro/16-geral/hidrogeral11_F01.jpg;true;"Fig. 210 de F. J. Sousa Gomes, A. R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Editora Livraria Cruz, Braga 1918.";76;null
+209;hidrogeral12_F01;data/images/fotos/hidro/16-geral/hidrogeral12_F01.jpg;true;"Fig. 184 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, 3ª edição, Tipographia da Academia Real das Sciências, Lisboa, 1880.";77;null
+
+210;apamed01_F01;data/images/fotos/mecanica/17-apa-med/apamed01_F01.jpg;true;"Fig. 5 de A. Guerreiro, R. Seixas, <i>Trabalhos Práticos de Física</i>, Porto Editora.";78;null
+211;apamed04_F01;data/images/fotos/mecanica/17-apa-med/apamed04_F01.jpg;true;"Fig. 8 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 25<sup>ème</sup> édition, Librairie Hachette et Cie, Paris 1913.";81;null
+212;apamed04_F02;data/images/fotos/mecanica/17-apa-med/apamed04_F02.jpg;true;Fig. 9 Esquema ilustratico que permite verificar a esfericidade e medir o raio da curvatura de uma lente convexa;81;null
+213;apamed06_F01;data/images/fotos/mecanica/17-apa-med/apamed06_F01.jpg;true;"Fig. 8 de A. Guerreiro, R. Seixas <i>Trabalhos Práticos de Física</i>, Porto Editora.";83;null
+214;apamed07_F01;data/images/fotos/mecanica/17-apa-med/apamed07_F01.jpg;true;Fig. 1 – Esquema do planímetro de Amsler;84;null
+
+215;bal02_F01;data/images/fotos/mecanica/18-balancas/bal02_F01.jpg;true;"Fig. 99 de F. J. Gomes, A. R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Editora Livraria Cruz, Braga 1918.";86;null
+216;bal03_F01;data/images/fotos/mecanica/18-balancas/bal03_F01.jpg;true;"Fig. 127-9 do catálogo <i>Les Fils d’Émile Deyrolle</i>, Paris.";87;null
+217;bal04_F01;data/images/fotos/mecanica/18-balancas/bal04_F01.jpg;true;"Fig. 24 do livro A. Guerreiro, R. Seixas, <i>Trabalhos Práticos de Física</i>, Porto Editora";88;null
+218;bal05_F01;data/images/fotos/mecanica/18-balancas/bal05_F01.jpg;true;"Fig. 7 de A. Ferreira, <i>Trabalhos Práticos de Física</i>, Livraria Sá da Costa, Lisboa 1936.";89;null
+219;bal06_F01;data/images/fotos/mecanica/18-balancas/bal06_F01.jpg;true;"Fig. 3 - Weighing Machines de <i>Encyclopaedia Britannica</i>, Vol. 23, edição 1952.";90;null
+220;bal07_F01;data/images/fotos/mecanica/18-balancas/bal07_F01.jpg;true;"Fig. 103 de F. J. Sousa Gomes, A. R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Livraria Cruz, Braga, 1918.";91;null
+
+221;dina01_F01;data/images/fotos/mecanica/19-dinamometros/dina01_F01.jpg;true;Fig. 1 – Esquema do dinamómetro de mola em hélice;92;null
+222;dina02_F01;data/images/fotos/mecanica/19-dinamometros/dina02_F01.jpg;true;"Fig. 30 de F. J. Gomes, Álvaro R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Editora Livraria Cruz, Braga 1918.";93;null
+
+223;maqsim01_F01;data/images/fotos/mecanica/20-maquina-simples/maqsim01_F01.jpg;true;"Fig. 148 de E. Gabriel, <i>Précis de Mécanique</i>, Maison A. Mame & Fils – Imprimeurs/Éditeurs, Tours, 1916. ";94;null
+224;maqsim03_F01;data/images/fotos/mecanica/20-maquina-simples/maqsim03_F01.jpg;true;"Fig. 151 de E. Gabriel, <i>Précis de Mécanique</i>, Maison A. Mame & Fils - Imprimeurs/Éditeurs, Tours, 1916.";96;null
+225;maqsim03_F02;data/images/fotos/mecanica/20-maquina-simples/maqsim03_F02.jpg;true;"Fig. 152 de E. Gabriel, <i>Précis de Mécanique</i>, Maison A. Mame & Fils - Imprimeurs/Éditeurs, Tours, 1916.";96;null
+226;maqsim04_F01;data/images/fotos/mecanica/20-maquina-simples/maqsim04_F01.jpg;true;"Fig. 54 do catálogo <i>Les Fils d’Emile Deyrolle</i>, Paris.";97;null
+227;maqsim05_F01;data/images/fotos/mecanica/20-maquina-simples/maqsim05_F01.jpg;true;"Fig. 87 de F. J. Sousa Gomes, A. R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Editora Livraria Cruz, Braga 1918.";98;null
+228;maqsim06_F01;data/images/fotos/mecanica/20-maquina-simples/maqsim06_F01.jpg;true;Fig. 1 – Esquema de uma roldana fixa;99;null
+229;maqsim06_F02;data/images/fotos/mecanica/20-maquina-simples/maqsim06_F02.jpg;true;Fig. 2 – Esquema de uma roldana móvel;99;null
+230;maqsim06_F03;data/images/fotos/mecanica/20-maquina-simples/maqsim06_F03.jpg;true;Fig. 3 – Esquema de uma talha.;99;null
+231;maqsim06_F04;data/images/fotos/mecanica/20-maquina-simples/maqsim06_F04.jpg;true;Fig. 4 – Esquema de um cadernal;99;null
+232;maqsim07_F01;data/images/fotos/mecanica/20-maquina-simples/maqsim07_F01.jpg;true;"Fig. 1302 de E. Gabriel, <i>Précis de Mecanique</i>, Maison A. Mame & Fils – Imprimeurs/ Éditeurs, Tours 1916.";100;null
+233;maqsim08_F01;data/images/fotos/mecanica/20-maquina-simples/maqsim08_F01.jpg;true;"Fig. 153 de E. Gabriel, <i>Précis de Mecanique</i>, Maison A. Mame & Fils – Imprimeurs/ Éditeurs, Tours 1916.";101;null
+
+234;mec01_F01;data/images/fotos/mecanica/22-geral/mec01_F01.jpg;true;Fig. 1 – Esquema do aparelho para demonstração dos efeitos da força centrífuga ;105;null
+235;mec01_F02;data/images/fotos/mecanica/22-geral/mec01_F02.jpg;true;Fig. 2 – Esquema do regulador de Watt;105;null
+236;mec01_F03;data/images/fotos/mecanica/22-geral/mec01_F03.jpg;true;Fig. 3 ;105;null
+237;mec01_F04;data/images/fotos/mecanica/22-geral/mec01_F04.jpg;true;Fig. 4;105;null
+238;mec01_F05;data/images/fotos/mecanica/22-geral/mec01_F05.jpg;true;Fig. 5;105;null
+239;mec01_F06;data/images/fotos/mecanica/22-geral/mec01_F06.jpg;true;Fig. 6 – Esquema dos meridianos elásticos;105;null
+240;mec01_F07;data/images/fotos/mecanica/22-geral/mec01_F07.jpg;true;Fig. 7;105;null
+241;mec01_F08;data/images/fotos/mecanica/22-geral/mec01_F08.jpg;true;Fig. 8 – Esquema do tubo de Tyndall;105;null
+242;mec01_F09;data/images/fotos/mecanica/22-geral/mec01_F09.jpg;true;Fig. 9 – Esquema do pêndulo de Foucault;105;null
+243;mec01_F10;data/images/fotos/mecanica/22-geral/mec01_F10.jpg;true;Fig. 10;105;null
+244;mec02_F01;data/images/fotos/mecanica/22-geral/mec02_F01.jpg;true;"Fig. 92 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, 3ª edição, Tipographia da Academia Real das Sciências, Lisboa 1880";106;null
+245;mec03_F01;data/images/fotos/mecanica/22-geral/mec03_F01.jpg;true;"Fig. 40 do livro <i>Elementos de Física Descritiva</i>, F. J. Gomes, Álvaro Machado, Editora Livraria Cruz, Braga 1918.";107;null
+246;mec04_F01;data/images/fotos/mecanica/22-geral/mec04_F01.jpg;true;"Fig 104 de F. J. Gomes, A. R. Machado, <i>Elementos de Física Descritiva</i>, 6ª edição, Editora Livraria Cruz, Braga 1918.";108;null
+247;mec05_F01;data/images/fotos/mecanica/22-geral/mec05_F01.jpg;true;"Fig. 55 do catálogo <i>Les Fils d’Émile Deyrolle</i>, Paris. ";109;null
+
+248;opt01_F01;data/images/fotos/optica/opt01_F01.jpg;true;"Fig. 368 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 21<sup>ére</sup> édition, Librairie Hachette et Cie, Paris, 1894.";110;null
+249;opt02_F01;data/images/fotos/optica/opt02_F01.jpg;true;"Fig. 58 de A. Pina Vidal, <i>Tratado Elementar de Óptica</i>, Tipografia da Academia Real das Ciências, Lisboa 1874.";111;null
+250;opt03_F01;data/images/fotos/optica/opt03_F01.jpg;true;"Fig. 486 do catálogo <i>Les Fils d’Émile Deyrolle</i>, Paris.";112;null
+251;opt04_F01;data/images/fotos/optica/opt04_F01.jpg;true;"Fig. 284 de <i>Cours de Physique, 1<sup>ére</sup>, 2<sup>ème</sup> et 3<sup>ème</sup> Années, par une Reunion de Professeurs</i>, Librairie General J. Gigord, Paris.";113;null
+252;opt05_F01;data/images/fotos/optica/opt05_F01.jpg;true;"Fig. 286 de <i>Cours de Physique, 1<sup>ére</sup>, 2<sup>ème</sup> et 3<sup>ème</sup> Années, par une Reunion de Professeurs</i>, Librairie General J. Gigord, Paris.";114;null
+253;opt07_F01;data/images/fotos/optica/opt07_F01.jpg;true;"Fig. 359 de F. Fonseca Benevides, <i>Noções de Physica Moderna</i>, Tipographia da Academia Real das Sciências, Lisboa 1880.";116;null
+254;opt08_F01;data/images/fotos/optica/opt08_F01.jpg;true;"Fig. 693 de A. Ganot, G. Maneuvrier, <i>Traité Élèmentaire de Physique</i>, 25<sup>ème</sup> édition, Librairie Hachette, Paris 1913.";117;null
+255;opt08_F02;data/images/fotos/optica/opt08_F02.jpg;true;"Fig. 694 de A. Ganot, G. Maneuvrier, <i>Traité Élèmentaire de Physique</i>, 25<sup>ème</sup> édition, Librairie Hachette, Paris 1913.";117;null
+256;opt08_F03;data/images/fotos/optica/opt08_F03.jpg;true;"Fig. 695 de A. Ganot, G. Maneuvrier, <i>Traité Élèmentaire de Physique</i>, 25<sup>ème</sup> édition, Librairie Hachette, Paris 1913.";117;null
+257;opt08_F04;data/images/fotos/optica/opt08_F04.jpg;true;"Fig. 696 de A. Ganot, G. Maneuvrier, <i>Traité Élèmentaire de Physique</i>, 25<sup>ème</sup> édition, Librairie Hachette, Paris 1913.";117;null
+258;opt08_F05;data/images/fotos/optica/opt08_F05.jpg;true;"Fig. 697 de A. Ganot, G. Maneuvrier, <i>Traité Élèmentaire de Physique</i>, 25<sup>ème</sup> édition, Librairie Hachette, Paris 1913.";117;null
+259;opt09_F01;data/images/fotos/optica/opt09_F01.jpg;true;Fig. 1 – Esquema do trajecto de um raio luminoso ao atravessar um prisma óptico;118;null
+260;opt11_F01;data/images/fotos/optica/opt11_F01.jpg;true;"Fig. 550 e 551 de A. Ganot, G. Maneuvrier, <i>Traité Élémentaire de Physique</i>, 26<sup>éme</sup> Édition, Librairie Hachette et Cie, Paris 1918.";120;null
+
+261;foto1;data/images/fotos/historias/foto1.jpg;false;"Classe de Physique";null;4
+262;foto2;data/images/fotos/historias/foto2.jpg;false;"Cabinet de Physique";null;4
+263;foto3;data/images/fotos/historias/foto3.jpg;false;"Classe d’Electrotechnie";null;4
+264;foto4;data/images/fotos/historias/foto4.jpg;false;"Classe de Chimie";null;4
+265;foto5;data/images/fotos/historias/foto5.jpg;false;"Laboratoire de Chimie";null;4
+266;foto6;data/images/fotos/historias/foto6.jpg;false;"Classe de Mercéologie (Produits de Commerce et Legislation Fiscale)";null;4
+
+
+
+
+
+
+
+
+
+
+
+
+
+

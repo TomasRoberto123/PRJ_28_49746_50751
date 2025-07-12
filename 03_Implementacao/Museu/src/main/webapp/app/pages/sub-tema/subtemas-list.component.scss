@@ -1,0 +1,143 @@
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+/* cor do titulo */
+h1 {
+  color: #383e42;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: #101820 !important;
+  font-style: normal;
+}
+
+.btn-link,
+.btn {
+  text-decoration: none !important;
+  color: #393131 !important;
+}
+
+.btn-link:hover {
+  text-decoration: none !important;
+  color: #393131 !important;
+}
+
+.btn-link:focus,
+.collapsed,
+.expanded {
+  text-decoration: none !important;
+  color: #393131 !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-img-top {
+  flex-shrink: 0;
+}
+
+.card-footer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #fff;
+}
+
+.card-footer p {
+  font-size: 16px;
+  margin: 0;
+  word-wrap: break-word;
+  word-break: break-word;
+  text-align: center;
+}
+
+.center {
+  height: auto;
+  position: relative;
+}
+
+.center p {
+  position: static;
+  transform: none;
+  left: auto;
+  top: auto;
+  width: 100%;
+}
+
+.min-vh-50 {
+  min-height: 50vh !important;
+}
+
+ngb-accordion ::ng-deep .card-header {
+  padding: 0;
+}
+
+/* cor das letras dos subtemas fechados */
+ngb-accordion ::ng-deep .card-header button[aria-expanded='false'] b {
+  color: #515a5a;
+}
+
+ngb-accordion ::ng-deep .card-header button {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.5rem !important;
+  text-decoration: none;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+/* hover nos subtemas */
+ngb-accordion ::ng-deep .card-header button:hover {
+  background-color: #c4c4c4;
+}
+
+/* letras dos subtemas hover */
+ngb-accordion ::ng-deep .card-header button:hover span {
+  color: #383e42;
+  font-weight: bold !important;
+}
+
+ngb-accordion ::ng-deep .card-header button:focus {
+  box-shadow: none;
+}
+
+/* cor do subtema aberto */
+ngb-accordion ::ng-deep .card-header button[aria-expanded='true'] {
+  background-color: #c4c4c4;
+}
+
+/* cor da letra do subtema aberto */
+ngb-accordion ::ng-deep .card-header button[aria-expanded='true'] span {
+  color: #383e42;
+  font-weight: bold;
+}
+
+/* hover nos instrumentos */
+ngb-accordion ::ng-deep .card.h-100.text-center:hover div {
+  background-color: #c4c4c4;
+  color: #383e42;
+  font-weight: bold;
+}
+
+/* default instrumentos */
+ngb-accordion ::ng-deep .card.h-100.text-center div {
+  color: #515a5a;
+  background-color: #ffffff;
+}
+
+ngb-accordion {
+  overflow-y: hidden;
+}

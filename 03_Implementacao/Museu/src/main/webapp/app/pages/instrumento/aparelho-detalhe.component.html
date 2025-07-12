@@ -1,0 +1,73 @@
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="!isLoading && instrumento === null">
+  <h1 class="page-heading">Instrumento não encontrado</h1>
+  <p>O instrumento que tentou visualizar não existe.</p>
+</div>
+<div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 61">
+  Ir para o topo
+  <i class="fas fa-level-up-alt"></i>
+</div>
+<div class="col-md-10 mx-auto" style="margin-bottom: 32px" *ngIf="instrumento">
+  <h1 class="page-heading" data-cy="CategoriaHeading">
+    <a [routerLink]="'/' + instrumento.subTema.categoria.id + '/subs'" routerLinkActive="active">
+      <span>{{ instrumento?.subTema?.categoria?.nome }}</span>
+    </a>
+
+    <i class="fa fa-angle-right mr-2 ml-2"></i>
+    <span>{{ instrumento?.subTema?.nome }}</span>
+    <i class="fa fa-angle-right mr-2 ml-2"></i>
+    <span>{{ instrumento?.nome }}</span>
+  </h1>
+</div>
+<div class="col-md-8 mx-auto text-center" style="margin-bottom: 32px" *ngIf="instrumento">
+  <ngb-carousel
+    class="no-indicators"
+    #carousel
+    *ngIf="instrumento?.fotos"
+    [interval]="0"
+    [wrap]="true"
+    [showNavigationArrows]="instrumento?.fotos.length > 1"
+  >
+    <ng-template ngbSlide *ngFor="let foto of instrumento.fotos">
+      <div class="picsum-img-wrapper">
+        <img class="card-img-top m-0" src="{{ basePath }}{{ foto.imagemPath }}" />
+      </div>
+      <div
+        class="carousel-caption"
+        style="
+          padding-top: 0;
+          width: 100%;
+          z-index: 10;
+          color: #000000;
+          background-color: #ffffff;
+          text-align: center;
+          top: 98%;
+          left: 0;
+          bottom: auto;
+          -webkit-transform: translate(0, -50%);
+          -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+        "
+        *ngIf="foto.isFigura"
+      >
+        <p [innerHTML]="foto.legenda"></p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
+<div class="col-md-10 mx-auto" *ngIf="instrumento">
+  <div class="row flex-column">
+    <div class="col-md-10">
+      <p><b>Nome: </b>{{ instrumento?.nome }}</p>
+    </div>
+    <div class="col-md-10">
+      <p><b>Fabricante: </b><span innerHTML="{{ instrumento?.fabricante }}"></span></p>
+    </div>
+    <div class="col-md-10">
+      <p><b>Dimensões: </b><span innerHTML="{{ instrumento?.dimensoes }}" class="font-italic"></span></p>
+    </div>
+  </div>
+</div>
+<div class="col-md-10 mx-auto" *ngIf="instrumento">
+  <div id="descricao" *ngIf="descricao" innerHTML="{{ descricao }}"></div>
+  <!--<div class="formula"><img [src]="basePath+data/texts/instrumentos-descricao/svgs/31-formula1.svg"></div>-->
+</div>

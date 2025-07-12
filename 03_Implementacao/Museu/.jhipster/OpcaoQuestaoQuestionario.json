@@ -1,0 +1,31 @@
+{
+  "name": "OpcaoQuestaoQuestionario",
+  "fields": [
+    {
+      "fieldName": "opcaoTexto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "correcta",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "questaoQuestionario",
+      "otherEntityRelationshipName": "opcaoQuestaoQuestionario",
+      "relationshipName": "questaoQuestionario"
+    }
+  ],
+  "entityTableName": "opcao_questao_questionario",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210516195602"
+}
