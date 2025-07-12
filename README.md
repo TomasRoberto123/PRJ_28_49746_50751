@@ -88,9 +88,9 @@ ng serve --open
    Edite o JSON em `content/config-museu/museum-config.json`:
    ```json
    {
-     "navbar": { "museumName": "Seu Museu" },
+     "navbar": { "museumName": "Nome do Museu" },
      "footer": {
-       "title": "Seu Museu",
+       "title": "Nome do Museu",
        "quote": "...",
        "citation": "– Autor",
        "copyright": ""
