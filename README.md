@@ -39,4 +39,37 @@ Este projeto visa disponibilizar online uma aplicação web que exibe:
 - **Mobile**: Android Native (Jetpack Compose)
 
 ## Estrutura do Repositório
+/
+├── 00_Planeamento # Documentos de planeamento
+├── 01_Analise # Análise de requisitos e contexto
+├── 02_Desenho # Diagramas e especificações de desenho
+├── 03_Implementacao
+│ └── Museu # Código-fonte do projeto Museu
+│ ├── src/
+│ │ └── main/
+│ │ └── webapp/
+│ │ ├── content/ # JSONs, textos, imagens e vídeos
+│ │ ├── images/ # UI assets (capa, cartões)
+│ │ └── video/ # Vídeo de apresentação
+│ └── Dockerfiles, pom.xml, etc.
+├── 04_Teste # Plano e resultados de validação
+└── README.md # Este arquivo
+
+
+## Pré-requisitos
+
+- Java 11 JDK  
+- Maven  
+- Node.js + npm  
+- Docker & Docker Compose  
+- Git + Git LFS  
+- (Opcional) Android Studio para app móvel
+
+## Instalação e Execução
+
+1. **Clone o repositório**  
+   ```bash
+   git clone https://github.com/TomasRoberto123/PRJ_28_49746_50751.git
+   cd PRJ_28_49746_50751/03_Implementacao/Museu
+
 
